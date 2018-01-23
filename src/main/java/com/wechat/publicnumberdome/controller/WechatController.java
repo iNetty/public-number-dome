@@ -1,10 +1,7 @@
 package com.wechat.publicnumberdome.controller;
 
-import com.thoughtworks.xstream.XStream;
 import com.wechat.publicnumberdome.service.WechatService;
-import com.wechat.publicnumberdome.utils.BCConvert;
 import com.wechat.publicnumberdome.utils.SignUtil;
-import com.wechat.publicnumberdome.wechat.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,11 +9,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import javax.servlet.ServletInputStream;
 import javax.servlet.http.HttpServletRequest;
 import java.io.IOException;
-import java.util.Calendar;
-import java.util.Date;
 
 /**
  * 微信接口控制器
@@ -30,13 +24,14 @@ public class WechatController {
 
     @Autowired
     private WechatService wechatService;
+
     /**
      * 处理微信请求
      *
      * @param signature 微信加密签名，signature结合了开发者填写的token参数和请求中的timestamp参数、nonce参数。
      * @param timestamp 时间戳
-     * @param nonce 随机数
-     * @param echostr 随机字符串
+     * @param nonce     随机数
+     * @param echostr   随机字符串
      */
     @RequestMapping("/checkSignature")
     @ResponseBody
