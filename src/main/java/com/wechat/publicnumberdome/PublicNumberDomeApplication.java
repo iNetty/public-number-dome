@@ -19,4 +19,5 @@ public class PublicNumberDomeApplication {
     public static void main(String[] args) {
         SpringApplication.run(PublicNumberDomeApplication.class, args);
     }
+
 }

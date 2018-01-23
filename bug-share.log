@@ -1,0 +1,481 @@
+2018-01-23 15:30:54.848  INFO 18932 --- [restartedMain] c.w.p.PublicNumberDomeApplication        : Starting PublicNumberDomeApplication on DESKTOP-M7PPQQJ with PID 18932 (D:\MyProject\idea2017.2.3\public-number-dome\target\classes started by 28913 in D:\MyProject\idea2017.2.3\public-number-dome)
+2018-01-23 15:30:54.850  INFO 18932 --- [restartedMain] c.w.p.PublicNumberDomeApplication        : No active profile set, falling back to default profiles: default
+2018-01-23 15:30:55.506  INFO 18932 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@18770cc5: startup date [Tue Jan 23 15:30:55 CST 2018]; root of context hierarchy
+2018-01-23 15:30:58.150  INFO 18932 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 80 (http)
+2018-01-23 15:30:58.161  INFO 18932 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-01-23 15:30:58.162  INFO 18932 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-01-23 15:30:58.261  INFO 18932 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-01-23 15:30:58.492  INFO 18932 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-23 15:30:58.493  INFO 18932 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-23 15:30:58.493  INFO 18932 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-23 15:30:58.493  INFO 18932 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-23 15:30:58.494  INFO 18932 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'MyFilter' to urls: [/*]
+2018-01-23 15:30:58.494  INFO 18932 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'remoteIpFilter' to: [/*]
+2018-01-23 15:30:58.494  INFO 18932 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-23 15:30:59.071  INFO 18932 --- [restartedMain] jdbc.connection                          : 1. Connection opened
+2018-01-23 15:30:59.071  INFO 18932 --- [restartedMain] jdbc.audit                               : 1. Connection.new Connection returned 
+2018-01-23 15:30:59.077  INFO 18932 --- [restartedMain] jdbc.connection                          : 2. Connection opened
+2018-01-23 15:30:59.077  INFO 18932 --- [restartedMain] jdbc.audit                               : 2. Connection.new Connection returned 
+2018-01-23 15:30:59.082  INFO 18932 --- [restartedMain] jdbc.connection                          : 3. Connection opened
+2018-01-23 15:30:59.082  INFO 18932 --- [restartedMain] jdbc.audit                               : 3. Connection.new Connection returned 
+2018-01-23 15:30:59.087  INFO 18932 --- [restartedMain] jdbc.connection                          : 4. Connection opened
+2018-01-23 15:30:59.087  INFO 18932 --- [restartedMain] jdbc.audit                               : 4. Connection.new Connection returned 
+2018-01-23 15:30:59.091  INFO 18932 --- [restartedMain] jdbc.connection                          : 5. Connection opened
+2018-01-23 15:30:59.091  INFO 18932 --- [restartedMain] jdbc.audit                               : 5. Connection.new Connection returned 
+2018-01-23 15:30:59.096  INFO 18932 --- [restartedMain] jdbc.connection                          : 6. Connection opened
+2018-01-23 15:30:59.096  INFO 18932 --- [restartedMain] jdbc.audit                               : 6. Connection.new Connection returned 
+2018-01-23 15:30:59.100  INFO 18932 --- [restartedMain] jdbc.connection                          : 7. Connection opened
+2018-01-23 15:30:59.100  INFO 18932 --- [restartedMain] jdbc.audit                               : 7. Connection.new Connection returned 
+2018-01-23 15:30:59.104  INFO 18932 --- [restartedMain] jdbc.connection                          : 8. Connection opened
+2018-01-23 15:30:59.105  INFO 18932 --- [restartedMain] jdbc.audit                               : 8. Connection.new Connection returned 
+2018-01-23 15:30:59.109  INFO 18932 --- [restartedMain] jdbc.connection                          : 9. Connection opened
+2018-01-23 15:30:59.109  INFO 18932 --- [restartedMain] jdbc.audit                               : 9. Connection.new Connection returned 
+2018-01-23 15:30:59.114  INFO 18932 --- [restartedMain] jdbc.connection                          : 10. Connection opened
+2018-01-23 15:30:59.114  INFO 18932 --- [restartedMain] jdbc.audit                               : 10. Connection.new Connection returned 
+2018-01-23 15:30:59.121  INFO 18932 --- [restartedMain] jdbc.audit                               : 10. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@69f98348
+2018-01-23 15:30:59.137  INFO 18932 --- [restartedMain] jdbc.audit                               : 10. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@2fccb21b
+2018-01-23 15:30:59.173  INFO 18932 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-01-23 15:30:59.657  INFO 18932 --- [restartedMain] jdbc.audit                               : 10. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@57bb8c38
+2018-01-23 15:31:00.047  INFO 18932 --- [restartedMain] jdbc.audit                               : 10. Connection.setAutoCommit(true) returned 
+2018-01-23 15:31:00.049  INFO 18932 --- [restartedMain] jdbc.audit                               : 10. Statement.new Statement returned 
+2018-01-23 15:31:00.050  INFO 18932 --- [restartedMain] jdbc.audit                               : 10. Connection.createStatement() returned net.sf.log4jdbc.StatementSpy@64a97035
+2018-01-23 15:31:00.053  INFO 18932 --- [restartedMain] jdbc.audit                               : 10. Statement.close() returned 
+2018-01-23 15:31:00.079  INFO 18932 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-01-23 15:31:00.113  INFO 18932 --- [restartedMain] jdbc.audit                               : 10. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@7418c19c
+2018-01-23 15:31:01.927  INFO 18932 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-01-23 15:31:02.123  INFO 18932 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-01-23 15:31:02.213  INFO 18932 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 80 (http)
+2018-01-23 15:31:02.220  INFO 18932 --- [restartedMain] c.w.p.PublicNumberDomeApplication        : Started PublicNumberDomeApplication in 8.095 seconds (JVM running for 10.018)
+2018-01-23 15:31:21.664  INFO 18932 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-01-23 15:31:46.411  INFO 18932 --- [Thread-23] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@18770cc5: startup date [Tue Jan 23 15:30:55 CST 2018]; root of context hierarchy
+2018-01-23 15:31:46.415  INFO 18932 --- [Thread-23] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-01-23 15:31:46.417  INFO 18932 --- [Thread-23] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-01-23 15:31:46.427  INFO 18932 --- [Thread-23] jdbc.connection                          : 10. Connection closed
+2018-01-23 15:31:46.428  INFO 18932 --- [Thread-23] jdbc.audit                               : 10. Connection.close() returned 
+2018-01-23 15:31:46.429  INFO 18932 --- [Thread-23] jdbc.connection                          : 9. Connection closed
+2018-01-23 15:31:46.429  INFO 18932 --- [Thread-23] jdbc.audit                               : 9. Connection.close() returned 
+2018-01-23 15:31:46.430  INFO 18932 --- [Thread-23] jdbc.connection                          : 8. Connection closed
+2018-01-23 15:31:46.431  INFO 18932 --- [Thread-23] jdbc.audit                               : 8. Connection.close() returned 
+2018-01-23 15:31:46.432  INFO 18932 --- [Thread-23] jdbc.connection                          : 7. Connection closed
+2018-01-23 15:31:46.432  INFO 18932 --- [Thread-23] jdbc.audit                               : 7. Connection.close() returned 
+2018-01-23 15:31:46.433  INFO 18932 --- [Thread-23] jdbc.connection                          : 6. Connection closed
+2018-01-23 15:31:46.433  INFO 18932 --- [Thread-23] jdbc.audit                               : 6. Connection.close() returned 
+2018-01-23 15:31:46.434  INFO 18932 --- [Thread-23] jdbc.connection                          : 5. Connection closed
+2018-01-23 15:31:46.435  INFO 18932 --- [Thread-23] jdbc.audit                               : 5. Connection.close() returned 
+2018-01-23 15:31:46.436  INFO 18932 --- [Thread-23] jdbc.connection                          : 4. Connection closed
+2018-01-23 15:31:46.437  INFO 18932 --- [Thread-23] jdbc.audit                               : 4. Connection.close() returned 
+2018-01-23 15:31:46.438  INFO 18932 --- [Thread-23] jdbc.connection                          : 3. Connection closed
+2018-01-23 15:31:46.438  INFO 18932 --- [Thread-23] jdbc.audit                               : 3. Connection.close() returned 
+2018-01-23 15:31:46.439  INFO 18932 --- [Thread-23] jdbc.connection                          : 2. Connection closed
+2018-01-23 15:31:46.439  INFO 18932 --- [Thread-23] jdbc.audit                               : 2. Connection.close() returned 
+2018-01-23 15:31:46.440  INFO 18932 --- [Thread-23] jdbc.connection                          : 1. Connection closed
+2018-01-23 15:31:46.440  INFO 18932 --- [Thread-23] jdbc.audit                               : 1. Connection.close() returned 
+2018-01-23 15:31:47.202  INFO 18932 --- [restartedMain] c.w.p.PublicNumberDomeApplication        : Starting PublicNumberDomeApplication on DESKTOP-M7PPQQJ with PID 18932 (D:\MyProject\idea2017.2.3\public-number-dome\target\classes started by 28913 in D:\MyProject\idea2017.2.3\public-number-dome)
+2018-01-23 15:31:47.203  INFO 18932 --- [restartedMain] c.w.p.PublicNumberDomeApplication        : No active profile set, falling back to default profiles: default
+2018-01-23 15:31:47.207  INFO 18932 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@771b79f7: startup date [Tue Jan 23 15:31:47 CST 2018]; root of context hierarchy
+2018-01-23 15:31:49.049  INFO 18932 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 80 (http)
+2018-01-23 15:31:49.056  INFO 18932 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-01-23 15:31:49.058  INFO 18932 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-01-23 15:31:49.125  INFO 18932 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-01-23 15:31:49.211  INFO 18932 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-23 15:31:49.211  INFO 18932 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-23 15:31:49.211  INFO 18932 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-23 15:31:49.211  INFO 18932 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-23 15:31:49.212  INFO 18932 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'MyFilter' to urls: [/*]
+2018-01-23 15:31:49.212  INFO 18932 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'remoteIpFilter' to: [/*]
+2018-01-23 15:31:49.212  INFO 18932 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-23 15:31:49.495  INFO 18932 --- [restartedMain] jdbc.connection                          : 11. Connection opened
+2018-01-23 15:31:49.496  INFO 18932 --- [restartedMain] jdbc.audit                               : 11. Connection.new Connection returned 
+2018-01-23 15:31:49.501  INFO 18932 --- [restartedMain] jdbc.connection                          : 12. Connection opened
+2018-01-23 15:31:49.502  INFO 18932 --- [restartedMain] jdbc.audit                               : 12. Connection.new Connection returned 
+2018-01-23 15:31:49.506  INFO 18932 --- [restartedMain] jdbc.connection                          : 13. Connection opened
+2018-01-23 15:31:49.506  INFO 18932 --- [restartedMain] jdbc.audit                               : 13. Connection.new Connection returned 
+2018-01-23 15:31:49.515  INFO 18932 --- [restartedMain] jdbc.connection                          : 14. Connection opened
+2018-01-23 15:31:49.515  INFO 18932 --- [restartedMain] jdbc.audit                               : 14. Connection.new Connection returned 
+2018-01-23 15:31:49.519  INFO 18932 --- [restartedMain] jdbc.connection                          : 15. Connection opened
+2018-01-23 15:31:49.519  INFO 18932 --- [restartedMain] jdbc.audit                               : 15. Connection.new Connection returned 
+2018-01-23 15:31:49.524  INFO 18932 --- [restartedMain] jdbc.connection                          : 16. Connection opened
+2018-01-23 15:31:49.524  INFO 18932 --- [restartedMain] jdbc.audit                               : 16. Connection.new Connection returned 
+2018-01-23 15:31:49.531  INFO 18932 --- [restartedMain] jdbc.connection                          : 17. Connection opened
+2018-01-23 15:31:49.531  INFO 18932 --- [restartedMain] jdbc.audit                               : 17. Connection.new Connection returned 
+2018-01-23 15:31:49.536  INFO 18932 --- [restartedMain] jdbc.connection                          : 18. Connection opened
+2018-01-23 15:31:49.536  INFO 18932 --- [restartedMain] jdbc.audit                               : 18. Connection.new Connection returned 
+2018-01-23 15:31:49.540  INFO 18932 --- [restartedMain] jdbc.connection                          : 19. Connection opened
+2018-01-23 15:31:49.540  INFO 18932 --- [restartedMain] jdbc.audit                               : 19. Connection.new Connection returned 
+2018-01-23 15:31:49.548  INFO 18932 --- [restartedMain] jdbc.connection                          : 20. Connection opened
+2018-01-23 15:31:49.549  INFO 18932 --- [restartedMain] jdbc.audit                               : 20. Connection.new Connection returned 
+2018-01-23 15:31:49.549  INFO 18932 --- [restartedMain] jdbc.audit                               : 20. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@297f78d5
+2018-01-23 15:31:49.552  INFO 18932 --- [restartedMain] jdbc.audit                               : 20. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@229dccdd
+2018-01-23 15:31:49.565  INFO 18932 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-01-23 15:31:49.581  INFO 18932 --- [restartedMain] jdbc.audit                               : 20. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@403d8743
+2018-01-23 15:31:49.593  INFO 18932 --- [restartedMain] jdbc.audit                               : 20. Connection.setAutoCommit(true) returned 
+2018-01-23 15:31:49.594  INFO 18932 --- [restartedMain] jdbc.audit                               : 20. Statement.new Statement returned 
+2018-01-23 15:31:49.594  INFO 18932 --- [restartedMain] jdbc.audit                               : 20. Connection.createStatement() returned net.sf.log4jdbc.StatementSpy@48c5e0ad
+2018-01-23 15:31:49.594  INFO 18932 --- [restartedMain] jdbc.audit                               : 20. Statement.close() returned 
+2018-01-23 15:31:49.594  INFO 18932 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-01-23 15:31:49.609  INFO 18932 --- [restartedMain] jdbc.audit                               : 20. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@4445ebb1
+2018-01-23 15:31:49.917  INFO 18932 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-01-23 15:31:50.098  INFO 18932 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-01-23 15:31:50.118  INFO 18932 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 80 (http)
+2018-01-23 15:31:50.120  INFO 18932 --- [restartedMain] c.w.p.PublicNumberDomeApplication        : Started PublicNumberDomeApplication in 3.0 seconds (JVM running for 57.917)
+2018-01-23 15:31:54.832  INFO 18932 --- [http-nio-80-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-01-23 15:31:54.840  INFO 18932 --- [http-nio-80-exec-2] uration$$EnhancerBySpringCGLIB$$863a77b9 : 对请求url :/ 过滤非法字符
+2018-01-23 15:31:54.879  INFO 18932 --- [http-nio-80-exec-1] uration$$EnhancerBySpringCGLIB$$863a77b9 : 对请求url :/js/jquery-3.2.1.min.js 过滤非法字符
+2018-01-23 15:31:55.061  INFO 18932 --- [http-nio-80-exec-3] uration$$EnhancerBySpringCGLIB$$863a77b9 : 对请求url :/favicon.ico 过滤非法字符
+2018-01-23 15:33:13.893  INFO 18932 --- [Thread-32] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@771b79f7: startup date [Tue Jan 23 15:31:47 CST 2018]; root of context hierarchy
+2018-01-23 15:33:13.895  INFO 18932 --- [Thread-32] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-01-23 15:33:13.896  INFO 18932 --- [Thread-32] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-01-23 15:33:13.901  INFO 18932 --- [Thread-32] jdbc.connection                          : 20. Connection closed
+2018-01-23 15:33:13.902  INFO 18932 --- [Thread-32] jdbc.audit                               : 20. Connection.close() returned 
+2018-01-23 15:33:13.904  INFO 18932 --- [Thread-32] jdbc.connection                          : 19. Connection closed
+2018-01-23 15:33:13.904  INFO 18932 --- [Thread-32] jdbc.audit                               : 19. Connection.close() returned 
+2018-01-23 15:33:13.905  INFO 18932 --- [Thread-32] jdbc.connection                          : 18. Connection closed
+2018-01-23 15:33:13.906  INFO 18932 --- [Thread-32] jdbc.audit                               : 18. Connection.close() returned 
+2018-01-23 15:33:13.907  INFO 18932 --- [Thread-32] jdbc.connection                          : 17. Connection closed
+2018-01-23 15:33:13.907  INFO 18932 --- [Thread-32] jdbc.audit                               : 17. Connection.close() returned 
+2018-01-23 15:33:13.908  INFO 18932 --- [Thread-32] jdbc.connection                          : 16. Connection closed
+2018-01-23 15:33:13.908  INFO 18932 --- [Thread-32] jdbc.audit                               : 16. Connection.close() returned 
+2018-01-23 15:33:13.909  INFO 18932 --- [Thread-32] jdbc.connection                          : 15. Connection closed
+2018-01-23 15:33:13.909  INFO 18932 --- [Thread-32] jdbc.audit                               : 15. Connection.close() returned 
+2018-01-23 15:33:13.909  INFO 18932 --- [Thread-32] jdbc.connection                          : 14. Connection closed
+2018-01-23 15:33:13.910  INFO 18932 --- [Thread-32] jdbc.audit                               : 14. Connection.close() returned 
+2018-01-23 15:33:13.911  INFO 18932 --- [Thread-32] jdbc.connection                          : 13. Connection closed
+2018-01-23 15:33:13.911  INFO 18932 --- [Thread-32] jdbc.audit                               : 13. Connection.close() returned 
+2018-01-23 15:33:13.912  INFO 18932 --- [Thread-32] jdbc.connection                          : 12. Connection closed
+2018-01-23 15:33:13.912  INFO 18932 --- [Thread-32] jdbc.audit                               : 12. Connection.close() returned 
+2018-01-23 15:33:13.913  INFO 18932 --- [Thread-32] jdbc.connection                          : 11. Connection closed
+2018-01-23 15:33:13.913  INFO 18932 --- [Thread-32] jdbc.audit                               : 11. Connection.close() returned 
+2018-01-23 15:33:14.632  INFO 18932 --- [restartedMain] c.w.p.PublicNumberDomeApplication        : Starting PublicNumberDomeApplication on DESKTOP-M7PPQQJ with PID 18932 (D:\MyProject\idea2017.2.3\public-number-dome\target\classes started by 28913 in D:\MyProject\idea2017.2.3\public-number-dome)
+2018-01-23 15:33:14.633  INFO 18932 --- [restartedMain] c.w.p.PublicNumberDomeApplication        : No active profile set, falling back to default profiles: default
+2018-01-23 15:33:14.637  INFO 18932 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@45635d7b: startup date [Tue Jan 23 15:33:14 CST 2018]; root of context hierarchy
+2018-01-23 15:33:16.014  INFO 18932 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 80 (http)
+2018-01-23 15:33:16.019  INFO 18932 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-01-23 15:33:16.019  INFO 18932 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-01-23 15:33:16.168  INFO 18932 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-01-23 15:33:16.294  INFO 18932 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-23 15:33:16.295  INFO 18932 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-23 15:33:16.295  INFO 18932 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-23 15:33:16.295  INFO 18932 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-23 15:33:16.295  INFO 18932 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'MyFilter' to urls: [/*]
+2018-01-23 15:33:16.295  INFO 18932 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'remoteIpFilter' to: [/*]
+2018-01-23 15:33:16.295  INFO 18932 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-23 15:33:16.551  INFO 18932 --- [restartedMain] jdbc.connection                          : 21. Connection opened
+2018-01-23 15:33:16.552  INFO 18932 --- [restartedMain] jdbc.audit                               : 21. Connection.new Connection returned 
+2018-01-23 15:33:16.558  INFO 18932 --- [restartedMain] jdbc.connection                          : 22. Connection opened
+2018-01-23 15:33:16.558  INFO 18932 --- [restartedMain] jdbc.audit                               : 22. Connection.new Connection returned 
+2018-01-23 15:33:16.561  INFO 18932 --- [restartedMain] jdbc.connection                          : 23. Connection opened
+2018-01-23 15:33:16.561  INFO 18932 --- [restartedMain] jdbc.audit                               : 23. Connection.new Connection returned 
+2018-01-23 15:33:16.564  INFO 18932 --- [restartedMain] jdbc.connection                          : 24. Connection opened
+2018-01-23 15:33:16.564  INFO 18932 --- [restartedMain] jdbc.audit                               : 24. Connection.new Connection returned 
+2018-01-23 15:33:16.568  INFO 18932 --- [restartedMain] jdbc.connection                          : 25. Connection opened
+2018-01-23 15:33:16.568  INFO 18932 --- [restartedMain] jdbc.audit                               : 25. Connection.new Connection returned 
+2018-01-23 15:33:16.572  INFO 18932 --- [restartedMain] jdbc.connection                          : 26. Connection opened
+2018-01-23 15:33:16.573  INFO 18932 --- [restartedMain] jdbc.audit                               : 26. Connection.new Connection returned 
+2018-01-23 15:33:16.576  INFO 18932 --- [restartedMain] jdbc.connection                          : 27. Connection opened
+2018-01-23 15:33:16.577  INFO 18932 --- [restartedMain] jdbc.audit                               : 27. Connection.new Connection returned 
+2018-01-23 15:33:16.581  INFO 18932 --- [restartedMain] jdbc.connection                          : 28. Connection opened
+2018-01-23 15:33:16.581  INFO 18932 --- [restartedMain] jdbc.audit                               : 28. Connection.new Connection returned 
+2018-01-23 15:33:16.585  INFO 18932 --- [restartedMain] jdbc.connection                          : 29. Connection opened
+2018-01-23 15:33:16.585  INFO 18932 --- [restartedMain] jdbc.audit                               : 29. Connection.new Connection returned 
+2018-01-23 15:33:16.594  INFO 18932 --- [restartedMain] jdbc.connection                          : 30. Connection opened
+2018-01-23 15:33:16.595  INFO 18932 --- [restartedMain] jdbc.audit                               : 30. Connection.new Connection returned 
+2018-01-23 15:33:16.595  INFO 18932 --- [restartedMain] jdbc.audit                               : 30. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@6956372b
+2018-01-23 15:33:16.599  INFO 18932 --- [restartedMain] jdbc.audit                               : 30. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@5975e601
+2018-01-23 15:33:16.621  INFO 18932 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-01-23 15:33:16.667  INFO 18932 --- [restartedMain] jdbc.audit                               : 30. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@597857a3
+2018-01-23 15:33:16.690  INFO 18932 --- [restartedMain] jdbc.audit                               : 30. Connection.setAutoCommit(true) returned 
+2018-01-23 15:33:16.690  INFO 18932 --- [restartedMain] jdbc.audit                               : 30. Statement.new Statement returned 
+2018-01-23 15:33:16.690  INFO 18932 --- [restartedMain] jdbc.audit                               : 30. Connection.createStatement() returned net.sf.log4jdbc.StatementSpy@14826025
+2018-01-23 15:33:16.690  INFO 18932 --- [restartedMain] jdbc.audit                               : 30. Statement.close() returned 
+2018-01-23 15:33:16.690  INFO 18932 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-01-23 15:33:16.723  INFO 18932 --- [restartedMain] jdbc.audit                               : 30. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@1d191dc
+2018-01-23 15:33:17.184  INFO 18932 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-01-23 15:33:17.344  INFO 18932 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-01-23 15:33:17.357  INFO 18932 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 80 (http)
+2018-01-23 15:33:17.359  INFO 18932 --- [restartedMain] c.w.p.PublicNumberDomeApplication        : Started PublicNumberDomeApplication in 2.799 seconds (JVM running for 145.156)
+2018-01-23 15:33:32.853  INFO 18932 --- [http-nio-80-exec-9] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-01-23 15:33:32.861  INFO 18932 --- [http-nio-80-exec-9] uration$$EnhancerBySpringCGLIB$$863a77b9 : 对请求url :/ 过滤非法字符
+2018-01-23 15:33:32.934  INFO 18932 --- [http-nio-80-exec-8] uration$$EnhancerBySpringCGLIB$$863a77b9 : 对请求url :/js/jquery-3.2.1.min.js 过滤非法字符
+2018-01-23 15:33:33.254  INFO 18932 --- [http-nio-80-exec-10] uration$$EnhancerBySpringCGLIB$$863a77b9 : 对请求url :/favicon.ico 过滤非法字符
+2018-01-23 15:33:51.440  INFO 18932 --- [http-nio-80-exec-3] uration$$EnhancerBySpringCGLIB$$863a77b9 : 对请求url :/ 过滤非法字符
+2018-01-23 15:33:51.510  INFO 18932 --- [http-nio-80-exec-2] uration$$EnhancerBySpringCGLIB$$863a77b9 : 对请求url :/js/jquery-3.2.1.min.js 过滤非法字符
+2018-01-23 15:33:51.763  INFO 18932 --- [http-nio-80-exec-9] uration$$EnhancerBySpringCGLIB$$863a77b9 : 对请求url :/favicon.ico 过滤非法字符
+2018-01-23 15:39:20.719  INFO 17612 --- [restartedMain] c.w.p.PublicNumberDomeApplication        : Starting PublicNumberDomeApplication on DESKTOP-M7PPQQJ with PID 17612 (D:\MyProject\idea2017.2.3\public-number-dome\target\classes started by 28913 in D:\MyProject\idea2017.2.3\public-number-dome)
+2018-01-23 15:39:20.728  INFO 17612 --- [restartedMain] c.w.p.PublicNumberDomeApplication        : No active profile set, falling back to default profiles: default
+2018-01-23 15:39:21.470  INFO 17612 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@e072fa: startup date [Tue Jan 23 15:39:21 CST 2018]; root of context hierarchy
+2018-01-23 15:39:23.725  INFO 17612 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 80 (http)
+2018-01-23 15:39:23.737  INFO 17612 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-01-23 15:39:23.738  INFO 17612 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-01-23 15:39:23.844  INFO 17612 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-01-23 15:39:24.064  INFO 17612 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-23 15:39:24.065  INFO 17612 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-23 15:39:24.065  INFO 17612 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-23 15:39:24.065  INFO 17612 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-23 15:39:24.065  INFO 17612 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'MyFilter' to urls: [/lpf/*]
+2018-01-23 15:39:24.066  INFO 17612 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'remoteIpFilter' to: [/*]
+2018-01-23 15:39:24.066  INFO 17612 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-23 15:39:24.852  INFO 17612 --- [restartedMain] jdbc.connection                          : 1. Connection opened
+2018-01-23 15:39:24.852  INFO 17612 --- [restartedMain] jdbc.audit                               : 1. Connection.new Connection returned 
+2018-01-23 15:39:24.858  INFO 17612 --- [restartedMain] jdbc.connection                          : 2. Connection opened
+2018-01-23 15:39:24.858  INFO 17612 --- [restartedMain] jdbc.audit                               : 2. Connection.new Connection returned 
+2018-01-23 15:39:24.867  INFO 17612 --- [restartedMain] jdbc.connection                          : 3. Connection opened
+2018-01-23 15:39:24.868  INFO 17612 --- [restartedMain] jdbc.audit                               : 3. Connection.new Connection returned 
+2018-01-23 15:39:24.874  INFO 17612 --- [restartedMain] jdbc.connection                          : 4. Connection opened
+2018-01-23 15:39:24.874  INFO 17612 --- [restartedMain] jdbc.audit                               : 4. Connection.new Connection returned 
+2018-01-23 15:39:24.879  INFO 17612 --- [restartedMain] jdbc.connection                          : 5. Connection opened
+2018-01-23 15:39:24.880  INFO 17612 --- [restartedMain] jdbc.audit                               : 5. Connection.new Connection returned 
+2018-01-23 15:39:24.885  INFO 17612 --- [restartedMain] jdbc.connection                          : 6. Connection opened
+2018-01-23 15:39:24.886  INFO 17612 --- [restartedMain] jdbc.audit                               : 6. Connection.new Connection returned 
+2018-01-23 15:39:24.890  INFO 17612 --- [restartedMain] jdbc.connection                          : 7. Connection opened
+2018-01-23 15:39:24.891  INFO 17612 --- [restartedMain] jdbc.audit                               : 7. Connection.new Connection returned 
+2018-01-23 15:39:24.895  INFO 17612 --- [restartedMain] jdbc.connection                          : 8. Connection opened
+2018-01-23 15:39:24.895  INFO 17612 --- [restartedMain] jdbc.audit                               : 8. Connection.new Connection returned 
+2018-01-23 15:39:24.901  INFO 17612 --- [restartedMain] jdbc.connection                          : 9. Connection opened
+2018-01-23 15:39:24.901  INFO 17612 --- [restartedMain] jdbc.audit                               : 9. Connection.new Connection returned 
+2018-01-23 15:39:24.907  INFO 17612 --- [restartedMain] jdbc.connection                          : 10. Connection opened
+2018-01-23 15:39:24.907  INFO 17612 --- [restartedMain] jdbc.audit                               : 10. Connection.new Connection returned 
+2018-01-23 15:39:24.918  INFO 17612 --- [restartedMain] jdbc.audit                               : 10. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@7638889d
+2018-01-23 15:39:24.937  INFO 17612 --- [restartedMain] jdbc.audit                               : 10. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@5392cc8f
+2018-01-23 15:39:24.987  INFO 17612 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-01-23 15:39:25.386  INFO 17612 --- [restartedMain] jdbc.audit                               : 10. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@1392f60b
+2018-01-23 15:39:25.754  INFO 17612 --- [restartedMain] jdbc.audit                               : 10. Connection.setAutoCommit(true) returned 
+2018-01-23 15:39:25.755  INFO 17612 --- [restartedMain] jdbc.audit                               : 10. Statement.new Statement returned 
+2018-01-23 15:39:25.755  INFO 17612 --- [restartedMain] jdbc.audit                               : 10. Connection.createStatement() returned net.sf.log4jdbc.StatementSpy@13331267
+2018-01-23 15:39:25.758  INFO 17612 --- [restartedMain] jdbc.audit                               : 10. Statement.close() returned 
+2018-01-23 15:39:25.780  INFO 17612 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-01-23 15:39:25.815  INFO 17612 --- [restartedMain] jdbc.audit                               : 10. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@374e72d6
+2018-01-23 15:39:27.148  INFO 17612 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-01-23 15:39:27.315  INFO 17612 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-01-23 15:39:27.398  INFO 17612 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 80 (http)
+2018-01-23 15:39:27.405  INFO 17612 --- [restartedMain] c.w.p.PublicNumberDomeApplication        : Started PublicNumberDomeApplication in 7.455 seconds (JVM running for 9.026)
+2018-01-23 15:39:34.344  INFO 17612 --- [http-nio-80-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-01-23 15:48:35.758  INFO 18992 --- [restartedMain] c.w.p.PublicNumberDomeApplication        : Starting PublicNumberDomeApplication on DESKTOP-M7PPQQJ with PID 18992 (D:\MyProject\idea2017.2.3\public-number-dome\target\classes started by 28913 in D:\MyProject\idea2017.2.3\public-number-dome)
+2018-01-23 15:48:35.761  INFO 18992 --- [restartedMain] c.w.p.PublicNumberDomeApplication        : No active profile set, falling back to default profiles: default
+2018-01-23 15:48:36.202  INFO 18992 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@46f6e319: startup date [Tue Jan 23 15:48:36 CST 2018]; root of context hierarchy
+2018-01-23 15:48:38.450  INFO 18992 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 80 (http)
+2018-01-23 15:48:38.461  INFO 18992 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-01-23 15:48:38.462  INFO 18992 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-01-23 15:48:38.575  INFO 18992 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-01-23 15:48:38.783  INFO 18992 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-23 15:48:38.784  INFO 18992 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-23 15:48:38.784  INFO 18992 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-23 15:48:38.784  INFO 18992 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-23 15:48:38.785  INFO 18992 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'MyFilter' to urls: [/lpf/*]
+2018-01-23 15:48:38.785  INFO 18992 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'remoteIpFilter' to: [/*]
+2018-01-23 15:48:38.785  INFO 18992 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-23 15:48:39.377  INFO 18992 --- [restartedMain] jdbc.connection                          : 1. Connection opened
+2018-01-23 15:48:39.378  INFO 18992 --- [restartedMain] jdbc.audit                               : 1. Connection.new Connection returned 
+2018-01-23 15:48:39.383  INFO 18992 --- [restartedMain] jdbc.connection                          : 2. Connection opened
+2018-01-23 15:48:39.383  INFO 18992 --- [restartedMain] jdbc.audit                               : 2. Connection.new Connection returned 
+2018-01-23 15:48:39.387  INFO 18992 --- [restartedMain] jdbc.connection                          : 3. Connection opened
+2018-01-23 15:48:39.387  INFO 18992 --- [restartedMain] jdbc.audit                               : 3. Connection.new Connection returned 
+2018-01-23 15:48:39.391  INFO 18992 --- [restartedMain] jdbc.connection                          : 4. Connection opened
+2018-01-23 15:48:39.392  INFO 18992 --- [restartedMain] jdbc.audit                               : 4. Connection.new Connection returned 
+2018-01-23 15:48:39.396  INFO 18992 --- [restartedMain] jdbc.connection                          : 5. Connection opened
+2018-01-23 15:48:39.396  INFO 18992 --- [restartedMain] jdbc.audit                               : 5. Connection.new Connection returned 
+2018-01-23 15:48:39.401  INFO 18992 --- [restartedMain] jdbc.connection                          : 6. Connection opened
+2018-01-23 15:48:39.401  INFO 18992 --- [restartedMain] jdbc.audit                               : 6. Connection.new Connection returned 
+2018-01-23 15:48:39.405  INFO 18992 --- [restartedMain] jdbc.connection                          : 7. Connection opened
+2018-01-23 15:48:39.405  INFO 18992 --- [restartedMain] jdbc.audit                               : 7. Connection.new Connection returned 
+2018-01-23 15:48:39.409  INFO 18992 --- [restartedMain] jdbc.connection                          : 8. Connection opened
+2018-01-23 15:48:39.409  INFO 18992 --- [restartedMain] jdbc.audit                               : 8. Connection.new Connection returned 
+2018-01-23 15:48:39.412  INFO 18992 --- [restartedMain] jdbc.connection                          : 9. Connection opened
+2018-01-23 15:48:39.413  INFO 18992 --- [restartedMain] jdbc.audit                               : 9. Connection.new Connection returned 
+2018-01-23 15:48:39.417  INFO 18992 --- [restartedMain] jdbc.connection                          : 10. Connection opened
+2018-01-23 15:48:39.417  INFO 18992 --- [restartedMain] jdbc.audit                               : 10. Connection.new Connection returned 
+2018-01-23 15:48:39.424  INFO 18992 --- [restartedMain] jdbc.audit                               : 10. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@40774a0a
+2018-01-23 15:48:39.438  INFO 18992 --- [restartedMain] jdbc.audit                               : 10. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@451eb39c
+2018-01-23 15:48:39.475  INFO 18992 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-01-23 15:48:39.817  INFO 18992 --- [restartedMain] jdbc.audit                               : 10. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@3de9187f
+2018-01-23 15:48:40.190  INFO 18992 --- [restartedMain] jdbc.audit                               : 10. Connection.setAutoCommit(true) returned 
+2018-01-23 15:48:40.192  INFO 18992 --- [restartedMain] jdbc.audit                               : 10. Statement.new Statement returned 
+2018-01-23 15:48:40.192  INFO 18992 --- [restartedMain] jdbc.audit                               : 10. Connection.createStatement() returned net.sf.log4jdbc.StatementSpy@25900024
+2018-01-23 15:48:40.194  INFO 18992 --- [restartedMain] jdbc.audit                               : 10. Statement.close() returned 
+2018-01-23 15:48:40.215  INFO 18992 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-01-23 15:48:40.252  INFO 18992 --- [restartedMain] jdbc.audit                               : 10. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@6bf6a334
+2018-01-23 15:48:41.635  INFO 18992 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-01-23 15:48:41.800  INFO 18992 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-01-23 15:48:41.882  INFO 18992 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 80 (http)
+2018-01-23 15:48:41.888  INFO 18992 --- [restartedMain] c.w.p.PublicNumberDomeApplication        : Started PublicNumberDomeApplication in 7.04 seconds (JVM running for 8.532)
+2018-01-23 15:48:54.023  INFO 18992 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-01-23 15:49:01.786 ERROR 18992 --- [http-nio-80-exec-5] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-80-exec-5] Exception processing template "pages/404": Error resolving template "pages/404", template might not exist or might not be accessible by any of the configured Template Resolvers
+2018-01-23 15:49:01.794 ERROR 18992 --- [http-nio-80-exec-5] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] threw exception
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template "pages/404", template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.TemplateRepository.getTemplate(TemplateRepository.java:246) ~[thymeleaf-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1104) ~[thymeleaf-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1060) ~[thymeleaf-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1011) ~[thymeleaf-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.thymeleaf.spring4.view.ThymeleafView.renderFragment(ThymeleafView.java:335) ~[thymeleaf-spring4-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.thymeleaf.spring4.view.ThymeleafView.render(ThymeleafView.java:190) ~[thymeleaf-spring4-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1257) ~[spring-webmvc-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1037) ~[spring-webmvc-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:980) ~[spring-webmvc-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897) ~[spring-webmvc-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970) ~[spring-webmvc-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861) ~[spring-webmvc-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846) ~[spring-webmvc-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:728) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:469) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:392) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:311) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:395) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:254) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:177) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_152]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_152]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_152]
+
+2018-01-23 15:49:01.797 ERROR 18992 --- [http-nio-80-exec-5] o.a.c.c.C.[Tomcat].[localhost]           : Exception Processing ErrorPage[errorCode=0, location=/error]
+
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Error resolving template "pages/404", template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:982) ~[spring-webmvc-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861) ~[spring-webmvc-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846) ~[spring-webmvc-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:728) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:469) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:392) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:311) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:395) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:254) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:177) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_152]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_152]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_152]
+Caused by: org.thymeleaf.exceptions.TemplateInputException: Error resolving template "pages/404", template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.TemplateRepository.getTemplate(TemplateRepository.java:246) ~[thymeleaf-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1104) ~[thymeleaf-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1060) ~[thymeleaf-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1011) ~[thymeleaf-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.thymeleaf.spring4.view.ThymeleafView.renderFragment(ThymeleafView.java:335) ~[thymeleaf-spring4-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.thymeleaf.spring4.view.ThymeleafView.render(ThymeleafView.java:190) ~[thymeleaf-spring4-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1257) ~[spring-webmvc-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1037) ~[spring-webmvc-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:980) ~[spring-webmvc-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897) ~[spring-webmvc-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970) ~[spring-webmvc-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	... 25 common frames omitted
+
+2018-01-23 15:51:22.738  INFO 18128 --- [restartedMain] c.w.p.PublicNumberDomeApplication        : Starting PublicNumberDomeApplication on DESKTOP-M7PPQQJ with PID 18128 (D:\MyProject\idea2017.2.3\public-number-dome\target\classes started by 28913 in D:\MyProject\idea2017.2.3\public-number-dome)
+2018-01-23 15:51:22.740  INFO 18128 --- [restartedMain] c.w.p.PublicNumberDomeApplication        : No active profile set, falling back to default profiles: default
+2018-01-23 15:51:23.267  INFO 18128 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5b564e8f: startup date [Tue Jan 23 15:51:23 CST 2018]; root of context hierarchy
+2018-01-23 15:51:25.609  INFO 18128 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 80 (http)
+2018-01-23 15:51:25.619  INFO 18128 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-01-23 15:51:25.621  INFO 18128 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-01-23 15:51:25.745  INFO 18128 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-01-23 15:51:26.073  INFO 18128 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-23 15:51:26.075  INFO 18128 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-23 15:51:26.076  INFO 18128 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-23 15:51:26.077  INFO 18128 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-23 15:51:26.077  INFO 18128 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'MyFilter' to urls: [/lpf/*]
+2018-01-23 15:51:26.078  INFO 18128 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'remoteIpFilter' to: [/*]
+2018-01-23 15:51:26.080  INFO 18128 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-23 15:51:26.808  INFO 18128 --- [restartedMain] jdbc.connection                          : 1. Connection opened
+2018-01-23 15:51:26.808  INFO 18128 --- [restartedMain] jdbc.audit                               : 1. Connection.new Connection returned 
+2018-01-23 15:51:26.814  INFO 18128 --- [restartedMain] jdbc.connection                          : 2. Connection opened
+2018-01-23 15:51:26.814  INFO 18128 --- [restartedMain] jdbc.audit                               : 2. Connection.new Connection returned 
+2018-01-23 15:51:26.818  INFO 18128 --- [restartedMain] jdbc.connection                          : 3. Connection opened
+2018-01-23 15:51:26.818  INFO 18128 --- [restartedMain] jdbc.audit                               : 3. Connection.new Connection returned 
+2018-01-23 15:51:26.822  INFO 18128 --- [restartedMain] jdbc.connection                          : 4. Connection opened
+2018-01-23 15:51:26.822  INFO 18128 --- [restartedMain] jdbc.audit                               : 4. Connection.new Connection returned 
+2018-01-23 15:51:26.831  INFO 18128 --- [restartedMain] jdbc.connection                          : 5. Connection opened
+2018-01-23 15:51:26.832  INFO 18128 --- [restartedMain] jdbc.audit                               : 5. Connection.new Connection returned 
+2018-01-23 15:51:26.836  INFO 18128 --- [restartedMain] jdbc.connection                          : 6. Connection opened
+2018-01-23 15:51:26.836  INFO 18128 --- [restartedMain] jdbc.audit                               : 6. Connection.new Connection returned 
+2018-01-23 15:51:26.843  INFO 18128 --- [restartedMain] jdbc.connection                          : 7. Connection opened
+2018-01-23 15:51:26.845  INFO 18128 --- [restartedMain] jdbc.audit                               : 7. Connection.new Connection returned 
+2018-01-23 15:51:26.854  INFO 18128 --- [restartedMain] jdbc.connection                          : 8. Connection opened
+2018-01-23 15:51:26.854  INFO 18128 --- [restartedMain] jdbc.audit                               : 8. Connection.new Connection returned 
+2018-01-23 15:51:26.860  INFO 18128 --- [restartedMain] jdbc.connection                          : 9. Connection opened
+2018-01-23 15:51:26.861  INFO 18128 --- [restartedMain] jdbc.audit                               : 9. Connection.new Connection returned 
+2018-01-23 15:51:26.866  INFO 18128 --- [restartedMain] jdbc.connection                          : 10. Connection opened
+2018-01-23 15:51:26.866  INFO 18128 --- [restartedMain] jdbc.audit                               : 10. Connection.new Connection returned 
+2018-01-23 15:51:26.875  INFO 18128 --- [restartedMain] jdbc.audit                               : 10. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@27e41579
+2018-01-23 15:51:26.894  INFO 18128 --- [restartedMain] jdbc.audit                               : 10. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@24cdfa0
+2018-01-23 15:51:26.937  INFO 18128 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-01-23 15:51:27.258  INFO 18128 --- [restartedMain] jdbc.audit                               : 10. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@4d106fbe
+2018-01-23 15:51:27.641  INFO 18128 --- [restartedMain] jdbc.audit                               : 10. Connection.setAutoCommit(true) returned 
+2018-01-23 15:51:27.642  INFO 18128 --- [restartedMain] jdbc.audit                               : 10. Statement.new Statement returned 
+2018-01-23 15:51:27.643  INFO 18128 --- [restartedMain] jdbc.audit                               : 10. Connection.createStatement() returned net.sf.log4jdbc.StatementSpy@506960d
+2018-01-23 15:51:27.645  INFO 18128 --- [restartedMain] jdbc.audit                               : 10. Statement.close() returned 
+2018-01-23 15:51:27.665  INFO 18128 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-01-23 15:51:27.703  INFO 18128 --- [restartedMain] jdbc.audit                               : 10. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@4ecce6b0
+2018-01-23 15:51:29.180  INFO 18128 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-01-23 15:51:29.433  INFO 18128 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-01-23 15:51:29.552  INFO 18128 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 80 (http)
+2018-01-23 15:51:29.558  INFO 18128 --- [restartedMain] c.w.p.PublicNumberDomeApplication        : Started PublicNumberDomeApplication in 7.783 seconds (JVM running for 9.588)
+2018-01-23 15:57:58.183  INFO 17464 --- [restartedMain] c.w.p.PublicNumberDomeApplication        : Starting PublicNumberDomeApplication on DESKTOP-M7PPQQJ with PID 17464 (D:\MyProject\idea2017.2.3\public-number-dome\target\classes started by 28913 in D:\MyProject\idea2017.2.3\public-number-dome)
+2018-01-23 15:57:58.185  INFO 17464 --- [restartedMain] c.w.p.PublicNumberDomeApplication        : No active profile set, falling back to default profiles: default
+2018-01-23 15:57:58.718  INFO 17464 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@b9b40b: startup date [Tue Jan 23 15:57:58 CST 2018]; root of context hierarchy
+2018-01-23 15:58:00.953  INFO 17464 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 80 (http)
+2018-01-23 15:58:00.964  INFO 17464 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-01-23 15:58:00.965  INFO 17464 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-01-23 15:58:01.079  INFO 17464 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-01-23 15:58:01.289  INFO 17464 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-23 15:58:01.290  INFO 17464 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-23 15:58:01.290  INFO 17464 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-23 15:58:01.290  INFO 17464 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-23 15:58:01.291  INFO 17464 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'MyFilter' to urls: [/lpf/*]
+2018-01-23 15:58:01.291  INFO 17464 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'remoteIpFilter' to: [/*]
+2018-01-23 15:58:01.291  INFO 17464 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-23 15:58:01.862  INFO 17464 --- [restartedMain] jdbc.connection                          : 1. Connection opened
+2018-01-23 15:58:01.863  INFO 17464 --- [restartedMain] jdbc.audit                               : 1. Connection.new Connection returned 
+2018-01-23 15:58:01.867  INFO 17464 --- [restartedMain] jdbc.connection                          : 2. Connection opened
+2018-01-23 15:58:01.867  INFO 17464 --- [restartedMain] jdbc.audit                               : 2. Connection.new Connection returned 
+2018-01-23 15:58:01.872  INFO 17464 --- [restartedMain] jdbc.connection                          : 3. Connection opened
+2018-01-23 15:58:01.872  INFO 17464 --- [restartedMain] jdbc.audit                               : 3. Connection.new Connection returned 
+2018-01-23 15:58:01.876  INFO 17464 --- [restartedMain] jdbc.connection                          : 4. Connection opened
+2018-01-23 15:58:01.877  INFO 17464 --- [restartedMain] jdbc.audit                               : 4. Connection.new Connection returned 
+2018-01-23 15:58:01.880  INFO 17464 --- [restartedMain] jdbc.connection                          : 5. Connection opened
+2018-01-23 15:58:01.881  INFO 17464 --- [restartedMain] jdbc.audit                               : 5. Connection.new Connection returned 
+2018-01-23 15:58:01.885  INFO 17464 --- [restartedMain] jdbc.connection                          : 6. Connection opened
+2018-01-23 15:58:01.885  INFO 17464 --- [restartedMain] jdbc.audit                               : 6. Connection.new Connection returned 
+2018-01-23 15:58:01.890  INFO 17464 --- [restartedMain] jdbc.connection                          : 7. Connection opened
+2018-01-23 15:58:01.890  INFO 17464 --- [restartedMain] jdbc.audit                               : 7. Connection.new Connection returned 
+2018-01-23 15:58:01.895  INFO 17464 --- [restartedMain] jdbc.connection                          : 8. Connection opened
+2018-01-23 15:58:01.895  INFO 17464 --- [restartedMain] jdbc.audit                               : 8. Connection.new Connection returned 
+2018-01-23 15:58:01.900  INFO 17464 --- [restartedMain] jdbc.connection                          : 9. Connection opened
+2018-01-23 15:58:01.900  INFO 17464 --- [restartedMain] jdbc.audit                               : 9. Connection.new Connection returned 
+2018-01-23 15:58:01.904  INFO 17464 --- [restartedMain] jdbc.connection                          : 10. Connection opened
+2018-01-23 15:58:01.905  INFO 17464 --- [restartedMain] jdbc.audit                               : 10. Connection.new Connection returned 
+2018-01-23 15:58:01.912  INFO 17464 --- [restartedMain] jdbc.audit                               : 10. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@7bcc27c
+2018-01-23 15:58:01.927  INFO 17464 --- [restartedMain] jdbc.audit                               : 10. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@620d6b7e
+2018-01-23 15:58:01.970  INFO 17464 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-01-23 15:58:02.309  INFO 17464 --- [restartedMain] jdbc.audit                               : 10. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@78d69afa
+2018-01-23 15:58:02.821  INFO 17464 --- [restartedMain] jdbc.audit                               : 10. Connection.setAutoCommit(true) returned 
+2018-01-23 15:58:02.841  INFO 17464 --- [restartedMain] jdbc.audit                               : 10. Statement.new Statement returned 
+2018-01-23 15:58:02.841  INFO 17464 --- [restartedMain] jdbc.audit                               : 10. Connection.createStatement() returned net.sf.log4jdbc.StatementSpy@2ec0936d
+2018-01-23 15:58:02.845  INFO 17464 --- [restartedMain] jdbc.audit                               : 10. Statement.close() returned 
+2018-01-23 15:58:02.876  INFO 17464 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-01-23 15:58:02.922  INFO 17464 --- [restartedMain] jdbc.audit                               : 10. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@707fe820
+2018-01-23 15:58:04.309  INFO 17464 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-01-23 15:58:04.470  INFO 17464 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-01-23 15:58:04.540  INFO 17464 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 80 (http)
+2018-01-23 15:58:04.546  INFO 17464 --- [restartedMain] c.w.p.PublicNumberDomeApplication        : Started PublicNumberDomeApplication in 7.231 seconds (JVM running for 9.29)
+2018-01-23 15:58:10.102  INFO 17464 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
