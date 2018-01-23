@@ -3,13 +3,18 @@ package com.wechat.publicnumberdome.service;
 import com.thoughtworks.xstream.XStream;
 import com.wechat.publicnumberdome.utils.BCConvert;
 import com.wechat.publicnumberdome.wechat.*;
+import com.wechat.publicnumberdome.wwchatUtils.ReceiveXmlEntity;
+import com.wechat.publicnumberdome.wwchatUtils.ReceiveXmlProcess;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 
 import javax.servlet.ServletInputStream;
 import javax.servlet.http.HttpServletRequest;
+import java.io.BufferedReader;
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.util.Calendar;
 import java.util.Date;
 
@@ -24,11 +29,12 @@ public class WechatService {
 
     /**
      * 处理请求
+     *
      * @param request 请求对象
      * @return 结果字符串
      * @throws IOException 文件操作异常
      */
-     public String processWechatMag(HttpServletRequest request) throws IOException {
+    /*public String processWechatMag(HttpServletRequest request) throws IOException {
         // 处理接收消息
         ServletInputStream in = request.getInputStream();
 
@@ -40,6 +46,7 @@ public class WechatService {
         // 将指定节点下的xml节点数据映射为对象
         xs.alias("xml", InputMessage.class);
 
+
         // 将流转换为字符串
         StringBuilder xmlMsg = new StringBuilder();
         byte[] b = new byte[4096];
@@ -48,7 +55,9 @@ public class WechatService {
         }
 
         // 将xml内容转换为InputMessage对象
-        InputMessage inputMsg = (InputMessage) xs.fromXML(xmlMsg.toString());
+        //InputMessage inputMsg = (InputMessage) xs.fromXML(xmlMsg.toString());
+        Object object = xs.fromXML(xmlMsg.toString());
+        InputMessage inputMsg = (InputMessage) object;
         String servername = inputMsg.getToUserName();// 发送给谁
         String custermname = inputMsg.getFromUserName();// 由谁发送
         long createTime = inputMsg.getCreateTime();// 发送时间
@@ -80,5 +89,35 @@ public class WechatService {
         }
         // 因为最终回复给微信的也是xml格式的数据，所有需要将其封装为文本类型返回消息
         return new FormatXmlProcess().formatXmlAnswer(inputMsg.getFromUserName(), inputMsg.getToUserName(), result);
+    }*/
+
+
+    /**
+     * 处理请求
+     *
+     * @param request 请求对象
+     * @return 结果字符串
+     * @throws IOException 文件操作异常
+     */
+    public String processWechatMag(HttpServletRequest request) throws IOException {
+
+        // 读取接收到的xml消息
+        StringBuffer sb = new StringBuffer();
+        InputStream is = request.getInputStream();
+        InputStreamReader isr = new InputStreamReader(is, "UTF-8");
+        BufferedReader br = new BufferedReader(isr);
+        String s;
+        while ((s = br.readLine()) != null) {
+            sb.append(s);
+        }
+        String xml = sb.toString(); //接收到微信端发送过来的xml数据
+        // 解析xml数据
+        ReceiveXmlEntity xmlEntity = new ReceiveXmlProcess().getMsgEntity(xml);
+        // 调用图灵机器人恢复
+        String result = new TulingApiProcess().getTulingResult(xmlEntity.getContent());
+
+        // 因为最终回复给微信的也是xml格式的数据，所有需要将其封装为文本类型返回消息
+        return new FormatXmlProcess().formatXmlAnswer(xmlEntity.getFromUserName(), xmlEntity.getToUserName(), result);
+
     }
 }

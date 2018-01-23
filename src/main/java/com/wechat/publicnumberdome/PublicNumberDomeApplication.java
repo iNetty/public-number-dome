@@ -10,7 +10,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 //@EnableAutoConfiguration //开启自动配置
 //@EnableScheduling //开启定时任务
 @SpringBootApplication //@SpringBootApplication 注解等价于以默认属性使用 @Configuration,@EnableAutoConfiguration 和 @ComponentScan。
-@EnableJpaRepositories(basePackages = {"com.wechat.publicnumberdome.dao"}) //spring-JPA的数据操作类路径(使用JPA时启用此注解)
+//@EnableJpaRepositories(basePackages = {"com.wechat.publicnumberdome.dao"}) //spring-JPA的数据操作类路径(使用JPA时启用此注解)
 public class PublicNumberDomeApplication {
 
     // 日志
