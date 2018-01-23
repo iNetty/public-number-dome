@@ -479,3 +479,1146 @@ Caused by: org.thymeleaf.exceptions.TemplateInputException: Error resolving temp
 2018-01-23 15:58:04.540  INFO 17464 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 80 (http)
 2018-01-23 15:58:04.546  INFO 17464 --- [restartedMain] c.w.p.PublicNumberDomeApplication        : Started PublicNumberDomeApplication in 7.231 seconds (JVM running for 9.29)
 2018-01-23 15:58:10.102  INFO 17464 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-01-23 17:07:40.374  INFO 1072 --- [restartedMain] c.w.p.PublicNumberDomeApplication        : Starting PublicNumberDomeApplication on DESKTOP-M7PPQQJ with PID 1072 (D:\MyProject\idea2017.2.3\public-number-dome\target\classes started by 28913 in D:\MyProject\idea2017.2.3\public-number-dome)
+2018-01-23 17:07:40.382  INFO 1072 --- [restartedMain] c.w.p.PublicNumberDomeApplication        : No active profile set, falling back to default profiles: default
+2018-01-23 17:07:40.835  INFO 1072 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6d25600: startup date [Tue Jan 23 17:07:40 CST 2018]; root of context hierarchy
+2018-01-23 17:07:42.951  INFO 1072 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 80 (http)
+2018-01-23 17:07:42.962  INFO 1072 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-01-23 17:07:42.963  INFO 1072 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-01-23 17:07:43.087  INFO 1072 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-01-23 17:07:43.342  INFO 1072 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-23 17:07:43.343  INFO 1072 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-23 17:07:43.344  INFO 1072 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-23 17:07:43.344  INFO 1072 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-23 17:07:43.344  INFO 1072 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'MyFilter' to urls: [/lpf/*]
+2018-01-23 17:07:43.345  INFO 1072 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'remoteIpFilter' to: [/*]
+2018-01-23 17:07:43.345  INFO 1072 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-23 17:07:43.930  INFO 1072 --- [restartedMain] jdbc.connection                          : 1. Connection opened
+2018-01-23 17:07:43.930  INFO 1072 --- [restartedMain] jdbc.audit                               : 1. Connection.new Connection returned 
+2018-01-23 17:07:43.935  INFO 1072 --- [restartedMain] jdbc.connection                          : 2. Connection opened
+2018-01-23 17:07:43.935  INFO 1072 --- [restartedMain] jdbc.audit                               : 2. Connection.new Connection returned 
+2018-01-23 17:07:43.940  INFO 1072 --- [restartedMain] jdbc.connection                          : 3. Connection opened
+2018-01-23 17:07:43.941  INFO 1072 --- [restartedMain] jdbc.audit                               : 3. Connection.new Connection returned 
+2018-01-23 17:07:43.944  INFO 1072 --- [restartedMain] jdbc.connection                          : 4. Connection opened
+2018-01-23 17:07:43.945  INFO 1072 --- [restartedMain] jdbc.audit                               : 4. Connection.new Connection returned 
+2018-01-23 17:07:43.949  INFO 1072 --- [restartedMain] jdbc.connection                          : 5. Connection opened
+2018-01-23 17:07:43.949  INFO 1072 --- [restartedMain] jdbc.audit                               : 5. Connection.new Connection returned 
+2018-01-23 17:07:43.954  INFO 1072 --- [restartedMain] jdbc.connection                          : 6. Connection opened
+2018-01-23 17:07:43.954  INFO 1072 --- [restartedMain] jdbc.audit                               : 6. Connection.new Connection returned 
+2018-01-23 17:07:43.958  INFO 1072 --- [restartedMain] jdbc.connection                          : 7. Connection opened
+2018-01-23 17:07:43.958  INFO 1072 --- [restartedMain] jdbc.audit                               : 7. Connection.new Connection returned 
+2018-01-23 17:07:43.963  INFO 1072 --- [restartedMain] jdbc.connection                          : 8. Connection opened
+2018-01-23 17:07:43.963  INFO 1072 --- [restartedMain] jdbc.audit                               : 8. Connection.new Connection returned 
+2018-01-23 17:07:43.967  INFO 1072 --- [restartedMain] jdbc.connection                          : 9. Connection opened
+2018-01-23 17:07:43.967  INFO 1072 --- [restartedMain] jdbc.audit                               : 9. Connection.new Connection returned 
+2018-01-23 17:07:43.972  INFO 1072 --- [restartedMain] jdbc.connection                          : 10. Connection opened
+2018-01-23 17:07:43.973  INFO 1072 --- [restartedMain] jdbc.audit                               : 10. Connection.new Connection returned 
+2018-01-23 17:07:43.981  INFO 1072 --- [restartedMain] jdbc.audit                               : 10. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@1af6fd84
+2018-01-23 17:07:43.995  INFO 1072 --- [restartedMain] jdbc.audit                               : 10. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@1f22531c
+2018-01-23 17:07:44.041  INFO 1072 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-01-23 17:07:44.396  INFO 1072 --- [restartedMain] jdbc.audit                               : 10. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@28c6821d
+2018-01-23 17:07:44.755  INFO 1072 --- [restartedMain] jdbc.audit                               : 10. Connection.setAutoCommit(true) returned 
+2018-01-23 17:07:44.757  INFO 1072 --- [restartedMain] jdbc.audit                               : 10. Statement.new Statement returned 
+2018-01-23 17:07:44.757  INFO 1072 --- [restartedMain] jdbc.audit                               : 10. Connection.createStatement() returned net.sf.log4jdbc.StatementSpy@6242e9b8
+2018-01-23 17:07:44.759  INFO 1072 --- [restartedMain] jdbc.audit                               : 10. Statement.close() returned 
+2018-01-23 17:07:44.778  INFO 1072 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-01-23 17:07:44.819  INFO 1072 --- [restartedMain] jdbc.audit                               : 10. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@29ec74d1
+2018-01-23 17:07:46.116  INFO 1072 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-01-23 17:07:46.279  INFO 1072 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-01-23 17:07:46.353  INFO 1072 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 80 (http)
+2018-01-23 17:07:46.361  INFO 1072 --- [restartedMain] c.w.p.PublicNumberDomeApplication        : Started PublicNumberDomeApplication in 6.907 seconds (JVM running for 8.46)
+2018-01-23 17:08:04.497  INFO 1072 --- [http-nio-80-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-01-23 17:08:16.482  INFO 1072 --- [http-nio-80-exec-5] guration$$EnhancerBySpringCGLIB$$ec62b25 : 对请求url :/lpf/wechat/checkSignature 过滤非法字符
+2018-01-23 17:08:26.921  INFO 1072 --- [http-nio-80-exec-8] guration$$EnhancerBySpringCGLIB$$ec62b25 : 对请求url :/lpf/wechat/checkSignature 过滤非法字符
+2018-01-23 17:08:50.680  INFO 1072 --- [http-nio-80-exec-9] guration$$EnhancerBySpringCGLIB$$ec62b25 : 对请求url :/lpf/wechat/checkSignature 过滤非法字符
+2018-01-23 17:09:11.900  INFO 1072 --- [Thread-21] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6d25600: startup date [Tue Jan 23 17:07:40 CST 2018]; root of context hierarchy
+2018-01-23 17:09:11.904  INFO 1072 --- [Thread-21] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-01-23 17:09:11.905  INFO 1072 --- [Thread-21] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-01-23 17:09:11.911  INFO 1072 --- [Thread-21] jdbc.connection                          : 10. Connection closed
+2018-01-23 17:09:11.911  INFO 1072 --- [Thread-21] jdbc.audit                               : 10. Connection.close() returned 
+2018-01-23 17:09:11.912  INFO 1072 --- [Thread-21] jdbc.connection                          : 9. Connection closed
+2018-01-23 17:09:11.912  INFO 1072 --- [Thread-21] jdbc.audit                               : 9. Connection.close() returned 
+2018-01-23 17:09:11.914  INFO 1072 --- [Thread-21] jdbc.connection                          : 8. Connection closed
+2018-01-23 17:09:11.914  INFO 1072 --- [Thread-21] jdbc.audit                               : 8. Connection.close() returned 
+2018-01-23 17:09:11.915  INFO 1072 --- [Thread-21] jdbc.connection                          : 7. Connection closed
+2018-01-23 17:09:11.915  INFO 1072 --- [Thread-21] jdbc.audit                               : 7. Connection.close() returned 
+2018-01-23 17:09:11.916  INFO 1072 --- [Thread-21] jdbc.connection                          : 6. Connection closed
+2018-01-23 17:09:11.917  INFO 1072 --- [Thread-21] jdbc.audit                               : 6. Connection.close() returned 
+2018-01-23 17:09:11.918  INFO 1072 --- [Thread-21] jdbc.connection                          : 5. Connection closed
+2018-01-23 17:09:11.918  INFO 1072 --- [Thread-21] jdbc.audit                               : 5. Connection.close() returned 
+2018-01-23 17:09:11.920  INFO 1072 --- [Thread-21] jdbc.connection                          : 4. Connection closed
+2018-01-23 17:09:11.920  INFO 1072 --- [Thread-21] jdbc.audit                               : 4. Connection.close() returned 
+2018-01-23 17:09:11.921  INFO 1072 --- [Thread-21] jdbc.connection                          : 3. Connection closed
+2018-01-23 17:09:11.922  INFO 1072 --- [Thread-21] jdbc.audit                               : 3. Connection.close() returned 
+2018-01-23 17:09:11.923  INFO 1072 --- [Thread-21] jdbc.connection                          : 2. Connection closed
+2018-01-23 17:09:11.923  INFO 1072 --- [Thread-21] jdbc.audit                               : 2. Connection.close() returned 
+2018-01-23 17:09:11.924  INFO 1072 --- [Thread-21] jdbc.connection                          : 1. Connection closed
+2018-01-23 17:09:11.924  INFO 1072 --- [Thread-21] jdbc.audit                               : 1. Connection.close() returned 
+2018-01-23 17:09:12.664  INFO 1072 --- [restartedMain] c.w.p.PublicNumberDomeApplication        : Starting PublicNumberDomeApplication on DESKTOP-M7PPQQJ with PID 1072 (D:\MyProject\idea2017.2.3\public-number-dome\target\classes started by 28913 in D:\MyProject\idea2017.2.3\public-number-dome)
+2018-01-23 17:09:12.665  INFO 1072 --- [restartedMain] c.w.p.PublicNumberDomeApplication        : No active profile set, falling back to default profiles: default
+2018-01-23 17:09:12.669  INFO 1072 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@613c8f4e: startup date [Tue Jan 23 17:09:12 CST 2018]; root of context hierarchy
+2018-01-23 17:09:13.781  INFO 1072 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 80 (http)
+2018-01-23 17:09:13.786  INFO 1072 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-01-23 17:09:13.786  INFO 1072 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-01-23 17:09:13.828  INFO 1072 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-01-23 17:09:13.990  INFO 1072 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-23 17:09:13.990  INFO 1072 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-23 17:09:13.991  INFO 1072 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-23 17:09:13.991  INFO 1072 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-23 17:09:13.991  INFO 1072 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'MyFilter' to urls: [/lpf/*]
+2018-01-23 17:09:13.991  INFO 1072 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'remoteIpFilter' to: [/*]
+2018-01-23 17:09:13.992  INFO 1072 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-23 17:09:14.445  INFO 1072 --- [restartedMain] jdbc.connection                          : 11. Connection opened
+2018-01-23 17:09:14.445  INFO 1072 --- [restartedMain] jdbc.audit                               : 11. Connection.new Connection returned 
+2018-01-23 17:09:14.450  INFO 1072 --- [restartedMain] jdbc.connection                          : 12. Connection opened
+2018-01-23 17:09:14.451  INFO 1072 --- [restartedMain] jdbc.audit                               : 12. Connection.new Connection returned 
+2018-01-23 17:09:14.457  INFO 1072 --- [restartedMain] jdbc.connection                          : 13. Connection opened
+2018-01-23 17:09:14.458  INFO 1072 --- [restartedMain] jdbc.audit                               : 13. Connection.new Connection returned 
+2018-01-23 17:09:14.464  INFO 1072 --- [restartedMain] jdbc.connection                          : 14. Connection opened
+2018-01-23 17:09:14.464  INFO 1072 --- [restartedMain] jdbc.audit                               : 14. Connection.new Connection returned 
+2018-01-23 17:09:14.469  INFO 1072 --- [restartedMain] jdbc.connection                          : 15. Connection opened
+2018-01-23 17:09:14.470  INFO 1072 --- [restartedMain] jdbc.audit                               : 15. Connection.new Connection returned 
+2018-01-23 17:09:14.476  INFO 1072 --- [restartedMain] jdbc.connection                          : 16. Connection opened
+2018-01-23 17:09:14.476  INFO 1072 --- [restartedMain] jdbc.audit                               : 16. Connection.new Connection returned 
+2018-01-23 17:09:14.481  INFO 1072 --- [restartedMain] jdbc.connection                          : 17. Connection opened
+2018-01-23 17:09:14.481  INFO 1072 --- [restartedMain] jdbc.audit                               : 17. Connection.new Connection returned 
+2018-01-23 17:09:14.487  INFO 1072 --- [restartedMain] jdbc.connection                          : 18. Connection opened
+2018-01-23 17:09:14.487  INFO 1072 --- [restartedMain] jdbc.audit                               : 18. Connection.new Connection returned 
+2018-01-23 17:09:14.495  INFO 1072 --- [restartedMain] jdbc.connection                          : 19. Connection opened
+2018-01-23 17:09:14.496  INFO 1072 --- [restartedMain] jdbc.audit                               : 19. Connection.new Connection returned 
+2018-01-23 17:09:14.501  INFO 1072 --- [restartedMain] jdbc.connection                          : 20. Connection opened
+2018-01-23 17:09:14.502  INFO 1072 --- [restartedMain] jdbc.audit                               : 20. Connection.new Connection returned 
+2018-01-23 17:09:14.502  INFO 1072 --- [restartedMain] jdbc.audit                               : 20. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@7b09e01d
+2018-01-23 17:09:14.505  INFO 1072 --- [restartedMain] jdbc.audit                               : 20. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@a8c87d5
+2018-01-23 17:09:14.544  INFO 1072 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-01-23 17:09:14.577  INFO 1072 --- [restartedMain] jdbc.audit                               : 20. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@7deaa0f4
+2018-01-23 17:09:14.596  INFO 1072 --- [restartedMain] jdbc.audit                               : 20. Connection.setAutoCommit(true) returned 
+2018-01-23 17:09:14.596  INFO 1072 --- [restartedMain] jdbc.audit                               : 20. Statement.new Statement returned 
+2018-01-23 17:09:14.596  INFO 1072 --- [restartedMain] jdbc.audit                               : 20. Connection.createStatement() returned net.sf.log4jdbc.StatementSpy@590f8b24
+2018-01-23 17:09:14.596  INFO 1072 --- [restartedMain] jdbc.audit                               : 20. Statement.close() returned 
+2018-01-23 17:09:14.597  INFO 1072 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-01-23 17:09:14.640  INFO 1072 --- [restartedMain] jdbc.audit                               : 20. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@1e7ed982
+2018-01-23 17:09:15.198  INFO 1072 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-01-23 17:09:15.364  INFO 1072 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-01-23 17:09:15.382  INFO 1072 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 80 (http)
+2018-01-23 17:09:15.385  INFO 1072 --- [restartedMain] c.w.p.PublicNumberDomeApplication        : Started PublicNumberDomeApplication in 2.78 seconds (JVM running for 97.484)
+2018-01-23 17:09:35.935  INFO 1072 --- [http-nio-80-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-01-23 17:09:35.939  INFO 1072 --- [http-nio-80-exec-3] guration$$EnhancerBySpringCGLIB$$ec62b25 : 对请求url :/lpf/wechat/checkSignature 过滤非法字符
+2018-01-23 17:10:25.964  INFO 15892 --- [restartedMain] c.w.p.PublicNumberDomeApplication        : Starting PublicNumberDomeApplication on DESKTOP-M7PPQQJ with PID 15892 (D:\MyProject\idea2017.2.3\public-number-dome\target\classes started by 28913 in D:\MyProject\idea2017.2.3\public-number-dome)
+2018-01-23 17:10:25.967  INFO 15892 --- [restartedMain] c.w.p.PublicNumberDomeApplication        : No active profile set, falling back to default profiles: default
+2018-01-23 17:10:26.477  INFO 15892 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@82b8d42: startup date [Tue Jan 23 17:10:26 CST 2018]; root of context hierarchy
+2018-01-23 17:10:28.750  INFO 15892 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 80 (http)
+2018-01-23 17:10:28.762  INFO 15892 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-01-23 17:10:28.763  INFO 15892 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-01-23 17:10:28.877  INFO 15892 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-01-23 17:10:29.116  INFO 15892 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-23 17:10:29.117  INFO 15892 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-23 17:10:29.117  INFO 15892 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-23 17:10:29.118  INFO 15892 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-23 17:10:29.118  INFO 15892 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'MyFilter' to urls: [/lpf/*]
+2018-01-23 17:10:29.118  INFO 15892 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'remoteIpFilter' to: [/*]
+2018-01-23 17:10:29.118  INFO 15892 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-23 17:10:29.807  INFO 15892 --- [restartedMain] jdbc.connection                          : 1. Connection opened
+2018-01-23 17:10:29.807  INFO 15892 --- [restartedMain] jdbc.audit                               : 1. Connection.new Connection returned 
+2018-01-23 17:10:29.812  INFO 15892 --- [restartedMain] jdbc.connection                          : 2. Connection opened
+2018-01-23 17:10:29.812  INFO 15892 --- [restartedMain] jdbc.audit                               : 2. Connection.new Connection returned 
+2018-01-23 17:10:29.817  INFO 15892 --- [restartedMain] jdbc.connection                          : 3. Connection opened
+2018-01-23 17:10:29.817  INFO 15892 --- [restartedMain] jdbc.audit                               : 3. Connection.new Connection returned 
+2018-01-23 17:10:29.823  INFO 15892 --- [restartedMain] jdbc.connection                          : 4. Connection opened
+2018-01-23 17:10:29.823  INFO 15892 --- [restartedMain] jdbc.audit                               : 4. Connection.new Connection returned 
+2018-01-23 17:10:29.826  INFO 15892 --- [restartedMain] jdbc.connection                          : 5. Connection opened
+2018-01-23 17:10:29.827  INFO 15892 --- [restartedMain] jdbc.audit                               : 5. Connection.new Connection returned 
+2018-01-23 17:10:29.831  INFO 15892 --- [restartedMain] jdbc.connection                          : 6. Connection opened
+2018-01-23 17:10:29.831  INFO 15892 --- [restartedMain] jdbc.audit                               : 6. Connection.new Connection returned 
+2018-01-23 17:10:29.835  INFO 15892 --- [restartedMain] jdbc.connection                          : 7. Connection opened
+2018-01-23 17:10:29.835  INFO 15892 --- [restartedMain] jdbc.audit                               : 7. Connection.new Connection returned 
+2018-01-23 17:10:29.839  INFO 15892 --- [restartedMain] jdbc.connection                          : 8. Connection opened
+2018-01-23 17:10:29.839  INFO 15892 --- [restartedMain] jdbc.audit                               : 8. Connection.new Connection returned 
+2018-01-23 17:10:29.843  INFO 15892 --- [restartedMain] jdbc.connection                          : 9. Connection opened
+2018-01-23 17:10:29.843  INFO 15892 --- [restartedMain] jdbc.audit                               : 9. Connection.new Connection returned 
+2018-01-23 17:10:29.847  INFO 15892 --- [restartedMain] jdbc.connection                          : 10. Connection opened
+2018-01-23 17:10:29.848  INFO 15892 --- [restartedMain] jdbc.audit                               : 10. Connection.new Connection returned 
+2018-01-23 17:10:29.856  INFO 15892 --- [restartedMain] jdbc.audit                               : 10. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@109fa98
+2018-01-23 17:10:29.870  INFO 15892 --- [restartedMain] jdbc.audit                               : 10. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@1a80e20d
+2018-01-23 17:10:29.939  INFO 15892 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-01-23 17:10:30.413  INFO 15892 --- [restartedMain] jdbc.audit                               : 10. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@5b4907c1
+2018-01-23 17:10:30.952  INFO 15892 --- [restartedMain] jdbc.audit                               : 10. Connection.setAutoCommit(true) returned 
+2018-01-23 17:10:30.954  INFO 15892 --- [restartedMain] jdbc.audit                               : 10. Statement.new Statement returned 
+2018-01-23 17:10:30.954  INFO 15892 --- [restartedMain] jdbc.audit                               : 10. Connection.createStatement() returned net.sf.log4jdbc.StatementSpy@229d350a
+2018-01-23 17:10:30.957  INFO 15892 --- [restartedMain] jdbc.audit                               : 10. Statement.close() returned 
+2018-01-23 17:10:30.977  INFO 15892 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-01-23 17:10:31.019  INFO 15892 --- [restartedMain] jdbc.audit                               : 10. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@52583778
+2018-01-23 17:10:32.328  INFO 15892 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-01-23 17:10:32.516  INFO 15892 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-01-23 17:10:32.606  INFO 15892 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 80 (http)
+2018-01-23 17:10:32.613  INFO 15892 --- [restartedMain] c.w.p.PublicNumberDomeApplication        : Started PublicNumberDomeApplication in 7.484 seconds (JVM running for 9.554)
+2018-01-23 17:11:00.315  INFO 15892 --- [Thread-22] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@82b8d42: startup date [Tue Jan 23 17:10:26 CST 2018]; root of context hierarchy
+2018-01-23 17:11:00.321  INFO 15892 --- [Thread-22] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-01-23 17:11:00.323  INFO 15892 --- [Thread-22] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-01-23 17:11:00.332  INFO 15892 --- [Thread-22] jdbc.connection                          : 10. Connection closed
+2018-01-23 17:11:00.333  INFO 15892 --- [Thread-22] jdbc.audit                               : 10. Connection.close() returned 
+2018-01-23 17:11:00.334  INFO 15892 --- [Thread-22] jdbc.connection                          : 9. Connection closed
+2018-01-23 17:11:00.334  INFO 15892 --- [Thread-22] jdbc.audit                               : 9. Connection.close() returned 
+2018-01-23 17:11:00.340  INFO 15892 --- [Thread-22] jdbc.connection                          : 8. Connection closed
+2018-01-23 17:11:00.341  INFO 15892 --- [Thread-22] jdbc.audit                               : 8. Connection.close() returned 
+2018-01-23 17:11:00.349  INFO 15892 --- [Thread-22] jdbc.connection                          : 7. Connection closed
+2018-01-23 17:11:00.349  INFO 15892 --- [Thread-22] jdbc.audit                               : 7. Connection.close() returned 
+2018-01-23 17:11:00.352  INFO 15892 --- [Thread-22] jdbc.connection                          : 6. Connection closed
+2018-01-23 17:11:00.352  INFO 15892 --- [Thread-22] jdbc.audit                               : 6. Connection.close() returned 
+2018-01-23 17:11:00.353  INFO 15892 --- [Thread-22] jdbc.connection                          : 5. Connection closed
+2018-01-23 17:11:00.353  INFO 15892 --- [Thread-22] jdbc.audit                               : 5. Connection.close() returned 
+2018-01-23 17:11:00.357  INFO 15892 --- [Thread-22] jdbc.connection                          : 4. Connection closed
+2018-01-23 17:11:00.357  INFO 15892 --- [Thread-22] jdbc.audit                               : 4. Connection.close() returned 
+2018-01-23 17:11:00.358  INFO 15892 --- [Thread-22] jdbc.connection                          : 3. Connection closed
+2018-01-23 17:11:00.358  INFO 15892 --- [Thread-22] jdbc.audit                               : 3. Connection.close() returned 
+2018-01-23 17:11:00.358  INFO 15892 --- [Thread-22] jdbc.connection                          : 2. Connection closed
+2018-01-23 17:11:00.358  INFO 15892 --- [Thread-22] jdbc.audit                               : 2. Connection.close() returned 
+2018-01-23 17:11:00.359  INFO 15892 --- [Thread-22] jdbc.connection                          : 1. Connection closed
+2018-01-23 17:11:00.360  INFO 15892 --- [Thread-22] jdbc.audit                               : 1. Connection.close() returned 
+2018-01-23 17:11:01.201  INFO 15892 --- [restartedMain] c.w.p.PublicNumberDomeApplication        : Starting PublicNumberDomeApplication on DESKTOP-M7PPQQJ with PID 15892 (D:\MyProject\idea2017.2.3\public-number-dome\target\classes started by 28913 in D:\MyProject\idea2017.2.3\public-number-dome)
+2018-01-23 17:11:01.202  INFO 15892 --- [restartedMain] c.w.p.PublicNumberDomeApplication        : No active profile set, falling back to default profiles: default
+2018-01-23 17:11:01.210  INFO 15892 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4b751f86: startup date [Tue Jan 23 17:11:01 CST 2018]; root of context hierarchy
+2018-01-23 17:11:02.441  INFO 15892 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 80 (http)
+2018-01-23 17:11:02.442  INFO 15892 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-01-23 17:11:02.442  INFO 15892 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-01-23 17:11:02.463  INFO 15892 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-01-23 17:11:02.544  INFO 15892 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-23 17:11:02.544  INFO 15892 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-23 17:11:02.544  INFO 15892 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-23 17:11:02.544  INFO 15892 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-23 17:11:02.545  INFO 15892 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'MyFilter' to urls: [/lpf/*]
+2018-01-23 17:11:02.545  INFO 15892 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'remoteIpFilter' to: [/*]
+2018-01-23 17:11:02.545  INFO 15892 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-23 17:11:02.911  INFO 15892 --- [restartedMain] jdbc.connection                          : 11. Connection opened
+2018-01-23 17:11:02.911  INFO 15892 --- [restartedMain] jdbc.audit                               : 11. Connection.new Connection returned 
+2018-01-23 17:11:02.916  INFO 15892 --- [restartedMain] jdbc.connection                          : 12. Connection opened
+2018-01-23 17:11:02.916  INFO 15892 --- [restartedMain] jdbc.audit                               : 12. Connection.new Connection returned 
+2018-01-23 17:11:02.919  INFO 15892 --- [restartedMain] jdbc.connection                          : 13. Connection opened
+2018-01-23 17:11:02.919  INFO 15892 --- [restartedMain] jdbc.audit                               : 13. Connection.new Connection returned 
+2018-01-23 17:11:02.923  INFO 15892 --- [restartedMain] jdbc.connection                          : 14. Connection opened
+2018-01-23 17:11:02.923  INFO 15892 --- [restartedMain] jdbc.audit                               : 14. Connection.new Connection returned 
+2018-01-23 17:11:02.927  INFO 15892 --- [restartedMain] jdbc.connection                          : 15. Connection opened
+2018-01-23 17:11:02.927  INFO 15892 --- [restartedMain] jdbc.audit                               : 15. Connection.new Connection returned 
+2018-01-23 17:11:02.931  INFO 15892 --- [restartedMain] jdbc.connection                          : 16. Connection opened
+2018-01-23 17:11:02.931  INFO 15892 --- [restartedMain] jdbc.audit                               : 16. Connection.new Connection returned 
+2018-01-23 17:11:02.934  INFO 15892 --- [restartedMain] jdbc.connection                          : 17. Connection opened
+2018-01-23 17:11:02.935  INFO 15892 --- [restartedMain] jdbc.audit                               : 17. Connection.new Connection returned 
+2018-01-23 17:11:02.938  INFO 15892 --- [restartedMain] jdbc.connection                          : 18. Connection opened
+2018-01-23 17:11:02.938  INFO 15892 --- [restartedMain] jdbc.audit                               : 18. Connection.new Connection returned 
+2018-01-23 17:11:02.942  INFO 15892 --- [restartedMain] jdbc.connection                          : 19. Connection opened
+2018-01-23 17:11:02.942  INFO 15892 --- [restartedMain] jdbc.audit                               : 19. Connection.new Connection returned 
+2018-01-23 17:11:02.948  INFO 15892 --- [restartedMain] jdbc.connection                          : 20. Connection opened
+2018-01-23 17:11:02.948  INFO 15892 --- [restartedMain] jdbc.audit                               : 20. Connection.new Connection returned 
+2018-01-23 17:11:02.949  INFO 15892 --- [restartedMain] jdbc.audit                               : 20. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@f9a6b07
+2018-01-23 17:11:02.952  INFO 15892 --- [restartedMain] jdbc.audit                               : 20. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@71110569
+2018-01-23 17:11:02.965  INFO 15892 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-01-23 17:11:02.999  INFO 15892 --- [restartedMain] jdbc.audit                               : 20. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@77ee71b7
+2018-01-23 17:11:03.016  INFO 15892 --- [restartedMain] jdbc.audit                               : 20. Connection.setAutoCommit(true) returned 
+2018-01-23 17:11:03.017  INFO 15892 --- [restartedMain] jdbc.audit                               : 20. Statement.new Statement returned 
+2018-01-23 17:11:03.017  INFO 15892 --- [restartedMain] jdbc.audit                               : 20. Connection.createStatement() returned net.sf.log4jdbc.StatementSpy@35e3a5c0
+2018-01-23 17:11:03.017  INFO 15892 --- [restartedMain] jdbc.audit                               : 20. Statement.close() returned 
+2018-01-23 17:11:03.017  INFO 15892 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-01-23 17:11:03.056  INFO 15892 --- [restartedMain] jdbc.audit                               : 20. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@488dd4ff
+2018-01-23 17:11:03.628  INFO 15892 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-01-23 17:11:03.795  INFO 15892 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-01-23 17:11:03.810  INFO 15892 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 80 (http)
+2018-01-23 17:11:03.813  INFO 15892 --- [restartedMain] c.w.p.PublicNumberDomeApplication        : Started PublicNumberDomeApplication in 2.774 seconds (JVM running for 40.754)
+2018-01-23 17:11:09.714  INFO 12436 --- [restartedMain] c.w.p.PublicNumberDomeApplication        : Starting PublicNumberDomeApplication on DESKTOP-M7PPQQJ with PID 12436 (D:\MyProject\idea2017.2.3\public-number-dome\target\classes started by 28913 in D:\MyProject\idea2017.2.3\public-number-dome)
+2018-01-23 17:11:09.716  INFO 12436 --- [restartedMain] c.w.p.PublicNumberDomeApplication        : No active profile set, falling back to default profiles: default
+2018-01-23 17:11:10.124  INFO 12436 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7ebee662: startup date [Tue Jan 23 17:11:10 CST 2018]; root of context hierarchy
+2018-01-23 17:11:12.520  INFO 12436 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 80 (http)
+2018-01-23 17:11:12.533  INFO 12436 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-01-23 17:11:12.534  INFO 12436 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-01-23 17:11:12.655  INFO 12436 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-01-23 17:11:12.882  INFO 12436 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-23 17:11:12.883  INFO 12436 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-23 17:11:12.883  INFO 12436 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-23 17:11:12.883  INFO 12436 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-23 17:11:12.884  INFO 12436 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'MyFilter' to urls: [/lpf/*]
+2018-01-23 17:11:12.884  INFO 12436 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'remoteIpFilter' to: [/*]
+2018-01-23 17:11:12.884  INFO 12436 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-23 17:11:13.498  INFO 12436 --- [restartedMain] jdbc.connection                          : 1. Connection opened
+2018-01-23 17:11:13.498  INFO 12436 --- [restartedMain] jdbc.audit                               : 1. Connection.new Connection returned 
+2018-01-23 17:11:13.502  INFO 12436 --- [restartedMain] jdbc.connection                          : 2. Connection opened
+2018-01-23 17:11:13.503  INFO 12436 --- [restartedMain] jdbc.audit                               : 2. Connection.new Connection returned 
+2018-01-23 17:11:13.508  INFO 12436 --- [restartedMain] jdbc.connection                          : 3. Connection opened
+2018-01-23 17:11:13.508  INFO 12436 --- [restartedMain] jdbc.audit                               : 3. Connection.new Connection returned 
+2018-01-23 17:11:13.513  INFO 12436 --- [restartedMain] jdbc.connection                          : 4. Connection opened
+2018-01-23 17:11:13.514  INFO 12436 --- [restartedMain] jdbc.audit                               : 4. Connection.new Connection returned 
+2018-01-23 17:11:13.518  INFO 12436 --- [restartedMain] jdbc.connection                          : 5. Connection opened
+2018-01-23 17:11:13.518  INFO 12436 --- [restartedMain] jdbc.audit                               : 5. Connection.new Connection returned 
+2018-01-23 17:11:13.523  INFO 12436 --- [restartedMain] jdbc.connection                          : 6. Connection opened
+2018-01-23 17:11:13.523  INFO 12436 --- [restartedMain] jdbc.audit                               : 6. Connection.new Connection returned 
+2018-01-23 17:11:13.527  INFO 12436 --- [restartedMain] jdbc.connection                          : 7. Connection opened
+2018-01-23 17:11:13.527  INFO 12436 --- [restartedMain] jdbc.audit                               : 7. Connection.new Connection returned 
+2018-01-23 17:11:13.533  INFO 12436 --- [restartedMain] jdbc.connection                          : 8. Connection opened
+2018-01-23 17:11:13.533  INFO 12436 --- [restartedMain] jdbc.audit                               : 8. Connection.new Connection returned 
+2018-01-23 17:11:13.537  INFO 12436 --- [restartedMain] jdbc.connection                          : 9. Connection opened
+2018-01-23 17:11:13.537  INFO 12436 --- [restartedMain] jdbc.audit                               : 9. Connection.new Connection returned 
+2018-01-23 17:11:13.541  INFO 12436 --- [restartedMain] jdbc.connection                          : 10. Connection opened
+2018-01-23 17:11:13.542  INFO 12436 --- [restartedMain] jdbc.audit                               : 10. Connection.new Connection returned 
+2018-01-23 17:11:13.550  INFO 12436 --- [restartedMain] jdbc.audit                               : 10. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@552bccc5
+2018-01-23 17:11:13.565  INFO 12436 --- [restartedMain] jdbc.audit                               : 10. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@4b4f67fc
+2018-01-23 17:11:13.605  INFO 12436 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-01-23 17:11:13.978  INFO 12436 --- [restartedMain] jdbc.audit                               : 10. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@4df20d68
+2018-01-23 17:11:14.353  INFO 12436 --- [restartedMain] jdbc.audit                               : 10. Connection.setAutoCommit(true) returned 
+2018-01-23 17:11:14.355  INFO 12436 --- [restartedMain] jdbc.audit                               : 10. Statement.new Statement returned 
+2018-01-23 17:11:14.355  INFO 12436 --- [restartedMain] jdbc.audit                               : 10. Connection.createStatement() returned net.sf.log4jdbc.StatementSpy@72b1a992
+2018-01-23 17:11:14.357  INFO 12436 --- [restartedMain] jdbc.audit                               : 10. Statement.close() returned 
+2018-01-23 17:11:14.378  INFO 12436 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-01-23 17:11:14.423  INFO 12436 --- [restartedMain] jdbc.audit                               : 10. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@2f02d1c8
+2018-01-23 17:11:15.793  INFO 12436 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-01-23 17:11:16.058  INFO 12436 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-01-23 17:11:16.155  INFO 12436 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 80 (http)
+2018-01-23 17:11:16.161  INFO 12436 --- [restartedMain] c.w.p.PublicNumberDomeApplication        : Started PublicNumberDomeApplication in 7.224 seconds (JVM running for 8.846)
+2018-01-23 17:11:24.784  INFO 12436 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-01-23 17:11:24.817  INFO 12436 --- [http-nio-80-exec-1] uration$$EnhancerBySpringCGLIB$$fd9282cc : 对请求url :/lpf/wechat/checkSignature 过滤非法字符
+2018-01-23 17:11:24.913  INFO 12436 --- [http-nio-80-exec-1] c.w.p.controller.WechatController        : 
+第一次验证接口...
+
+2018-01-23 17:11:24.915  INFO 12436 --- [http-nio-80-exec-1] c.w.p.controller.WechatController        : 
+校验成功
+
+2018-01-23 17:12:47.027  INFO 12436 --- [Thread-21] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7ebee662: startup date [Tue Jan 23 17:11:10 CST 2018]; root of context hierarchy
+2018-01-23 17:12:47.031  INFO 12436 --- [Thread-21] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-01-23 17:12:47.031  INFO 12436 --- [Thread-21] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-01-23 17:12:47.035  INFO 12436 --- [Thread-21] jdbc.connection                          : 10. Connection closed
+2018-01-23 17:12:47.036  INFO 12436 --- [Thread-21] jdbc.audit                               : 10. Connection.close() returned 
+2018-01-23 17:12:47.037  INFO 12436 --- [Thread-21] jdbc.connection                          : 9. Connection closed
+2018-01-23 17:12:47.037  INFO 12436 --- [Thread-21] jdbc.audit                               : 9. Connection.close() returned 
+2018-01-23 17:12:47.037  INFO 12436 --- [Thread-21] jdbc.connection                          : 8. Connection closed
+2018-01-23 17:12:47.038  INFO 12436 --- [Thread-21] jdbc.audit                               : 8. Connection.close() returned 
+2018-01-23 17:12:47.038  INFO 12436 --- [Thread-21] jdbc.connection                          : 7. Connection closed
+2018-01-23 17:12:47.038  INFO 12436 --- [Thread-21] jdbc.audit                               : 7. Connection.close() returned 
+2018-01-23 17:12:47.039  INFO 12436 --- [Thread-21] jdbc.connection                          : 6. Connection closed
+2018-01-23 17:12:47.039  INFO 12436 --- [Thread-21] jdbc.audit                               : 6. Connection.close() returned 
+2018-01-23 17:12:47.040  INFO 12436 --- [Thread-21] jdbc.connection                          : 5. Connection closed
+2018-01-23 17:12:47.040  INFO 12436 --- [Thread-21] jdbc.audit                               : 5. Connection.close() returned 
+2018-01-23 17:12:47.041  INFO 12436 --- [Thread-21] jdbc.connection                          : 4. Connection closed
+2018-01-23 17:12:47.041  INFO 12436 --- [Thread-21] jdbc.audit                               : 4. Connection.close() returned 
+2018-01-23 17:12:47.042  INFO 12436 --- [Thread-21] jdbc.connection                          : 3. Connection closed
+2018-01-23 17:12:47.042  INFO 12436 --- [Thread-21] jdbc.audit                               : 3. Connection.close() returned 
+2018-01-23 17:12:47.043  INFO 12436 --- [Thread-21] jdbc.connection                          : 2. Connection closed
+2018-01-23 17:12:47.043  INFO 12436 --- [Thread-21] jdbc.audit                               : 2. Connection.close() returned 
+2018-01-23 17:12:47.043  INFO 12436 --- [Thread-21] jdbc.connection                          : 1. Connection closed
+2018-01-23 17:12:47.043  INFO 12436 --- [Thread-21] jdbc.audit                               : 1. Connection.close() returned 
+2018-01-23 17:12:47.694  INFO 12436 --- [restartedMain] c.w.p.PublicNumberDomeApplication        : Starting PublicNumberDomeApplication on DESKTOP-M7PPQQJ with PID 12436 (D:\MyProject\idea2017.2.3\public-number-dome\target\classes started by 28913 in D:\MyProject\idea2017.2.3\public-number-dome)
+2018-01-23 17:12:47.695  INFO 12436 --- [restartedMain] c.w.p.PublicNumberDomeApplication        : No active profile set, falling back to default profiles: default
+2018-01-23 17:12:47.699  INFO 12436 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4bb291: startup date [Tue Jan 23 17:12:47 CST 2018]; root of context hierarchy
+2018-01-23 17:12:49.042  INFO 12436 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 80 (http)
+2018-01-23 17:12:49.043  INFO 12436 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-01-23 17:12:49.043  INFO 12436 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-01-23 17:12:49.061  INFO 12436 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-01-23 17:12:49.118  INFO 12436 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-23 17:12:49.119  INFO 12436 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-23 17:12:49.119  INFO 12436 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-23 17:12:49.119  INFO 12436 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-23 17:12:49.119  INFO 12436 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'MyFilter' to urls: [/lpf/*]
+2018-01-23 17:12:49.119  INFO 12436 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'remoteIpFilter' to: [/*]
+2018-01-23 17:12:49.119  INFO 12436 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-23 17:12:49.237  INFO 12436 --- [restartedMain] jdbc.connection                          : 11. Connection opened
+2018-01-23 17:12:49.237  INFO 12436 --- [restartedMain] jdbc.audit                               : 11. Connection.new Connection returned 
+2018-01-23 17:12:49.240  INFO 12436 --- [restartedMain] jdbc.connection                          : 12. Connection opened
+2018-01-23 17:12:49.241  INFO 12436 --- [restartedMain] jdbc.audit                               : 12. Connection.new Connection returned 
+2018-01-23 17:12:49.244  INFO 12436 --- [restartedMain] jdbc.connection                          : 13. Connection opened
+2018-01-23 17:12:49.244  INFO 12436 --- [restartedMain] jdbc.audit                               : 13. Connection.new Connection returned 
+2018-01-23 17:12:49.248  INFO 12436 --- [restartedMain] jdbc.connection                          : 14. Connection opened
+2018-01-23 17:12:49.248  INFO 12436 --- [restartedMain] jdbc.audit                               : 14. Connection.new Connection returned 
+2018-01-23 17:12:49.251  INFO 12436 --- [restartedMain] jdbc.connection                          : 15. Connection opened
+2018-01-23 17:12:49.251  INFO 12436 --- [restartedMain] jdbc.audit                               : 15. Connection.new Connection returned 
+2018-01-23 17:12:49.257  INFO 12436 --- [restartedMain] jdbc.connection                          : 16. Connection opened
+2018-01-23 17:12:49.257  INFO 12436 --- [restartedMain] jdbc.audit                               : 16. Connection.new Connection returned 
+2018-01-23 17:12:49.260  INFO 12436 --- [restartedMain] jdbc.connection                          : 17. Connection opened
+2018-01-23 17:12:49.261  INFO 12436 --- [restartedMain] jdbc.audit                               : 17. Connection.new Connection returned 
+2018-01-23 17:12:49.265  INFO 12436 --- [restartedMain] jdbc.connection                          : 18. Connection opened
+2018-01-23 17:12:49.266  INFO 12436 --- [restartedMain] jdbc.audit                               : 18. Connection.new Connection returned 
+2018-01-23 17:12:49.272  INFO 12436 --- [restartedMain] jdbc.connection                          : 19. Connection opened
+2018-01-23 17:12:49.272  INFO 12436 --- [restartedMain] jdbc.audit                               : 19. Connection.new Connection returned 
+2018-01-23 17:12:49.277  INFO 12436 --- [restartedMain] jdbc.connection                          : 20. Connection opened
+2018-01-23 17:12:49.277  INFO 12436 --- [restartedMain] jdbc.audit                               : 20. Connection.new Connection returned 
+2018-01-23 17:12:49.278  INFO 12436 --- [restartedMain] jdbc.audit                               : 20. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@69c4fc2a
+2018-01-23 17:12:49.281  INFO 12436 --- [restartedMain] jdbc.audit                               : 20. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@7c2c52e0
+2018-01-23 17:12:49.298  INFO 12436 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-01-23 17:12:49.316  INFO 12436 --- [restartedMain] jdbc.audit                               : 20. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@15b12ea2
+2018-01-23 17:12:49.332  INFO 12436 --- [restartedMain] jdbc.audit                               : 20. Connection.setAutoCommit(true) returned 
+2018-01-23 17:12:49.332  INFO 12436 --- [restartedMain] jdbc.audit                               : 20. Statement.new Statement returned 
+2018-01-23 17:12:49.333  INFO 12436 --- [restartedMain] jdbc.audit                               : 20. Connection.createStatement() returned net.sf.log4jdbc.StatementSpy@776c1a8d
+2018-01-23 17:12:49.333  INFO 12436 --- [restartedMain] jdbc.audit                               : 20. Statement.close() returned 
+2018-01-23 17:12:49.333  INFO 12436 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-01-23 17:12:49.370  INFO 12436 --- [restartedMain] jdbc.audit                               : 20. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@ddab53
+2018-01-23 17:12:49.712  INFO 12436 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-01-23 17:12:49.873  INFO 12436 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-01-23 17:12:49.889  INFO 12436 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 80 (http)
+2018-01-23 17:12:49.892  INFO 12436 --- [restartedMain] c.w.p.PublicNumberDomeApplication        : Started PublicNumberDomeApplication in 2.266 seconds (JVM running for 102.577)
+2018-01-23 17:12:54.348  INFO 20156 --- [restartedMain] c.w.p.PublicNumberDomeApplication        : Starting PublicNumberDomeApplication on DESKTOP-M7PPQQJ with PID 20156 (D:\MyProject\idea2017.2.3\public-number-dome\target\classes started by 28913 in D:\MyProject\idea2017.2.3\public-number-dome)
+2018-01-23 17:12:54.349  INFO 20156 --- [restartedMain] c.w.p.PublicNumberDomeApplication        : No active profile set, falling back to default profiles: default
+2018-01-23 17:12:54.973  INFO 20156 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@77696fb7: startup date [Tue Jan 23 17:12:54 CST 2018]; root of context hierarchy
+2018-01-23 17:12:57.647  INFO 20156 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 80 (http)
+2018-01-23 17:12:57.659  INFO 20156 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-01-23 17:12:57.660  INFO 20156 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-01-23 17:12:57.771  INFO 20156 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-01-23 17:12:58.012  INFO 20156 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-23 17:12:58.013  INFO 20156 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-23 17:12:58.013  INFO 20156 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-23 17:12:58.014  INFO 20156 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-23 17:12:58.014  INFO 20156 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'MyFilter' to urls: [/lpf/*]
+2018-01-23 17:12:58.015  INFO 20156 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'remoteIpFilter' to: [/*]
+2018-01-23 17:12:58.015  INFO 20156 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-23 17:12:58.586  INFO 20156 --- [restartedMain] jdbc.connection                          : 1. Connection opened
+2018-01-23 17:12:58.586  INFO 20156 --- [restartedMain] jdbc.audit                               : 1. Connection.new Connection returned 
+2018-01-23 17:12:58.590  INFO 20156 --- [restartedMain] jdbc.connection                          : 2. Connection opened
+2018-01-23 17:12:58.591  INFO 20156 --- [restartedMain] jdbc.audit                               : 2. Connection.new Connection returned 
+2018-01-23 17:12:58.596  INFO 20156 --- [restartedMain] jdbc.connection                          : 3. Connection opened
+2018-01-23 17:12:58.596  INFO 20156 --- [restartedMain] jdbc.audit                               : 3. Connection.new Connection returned 
+2018-01-23 17:12:58.600  INFO 20156 --- [restartedMain] jdbc.connection                          : 4. Connection opened
+2018-01-23 17:12:58.601  INFO 20156 --- [restartedMain] jdbc.audit                               : 4. Connection.new Connection returned 
+2018-01-23 17:12:58.605  INFO 20156 --- [restartedMain] jdbc.connection                          : 5. Connection opened
+2018-01-23 17:12:58.605  INFO 20156 --- [restartedMain] jdbc.audit                               : 5. Connection.new Connection returned 
+2018-01-23 17:12:58.609  INFO 20156 --- [restartedMain] jdbc.connection                          : 6. Connection opened
+2018-01-23 17:12:58.610  INFO 20156 --- [restartedMain] jdbc.audit                               : 6. Connection.new Connection returned 
+2018-01-23 17:12:58.613  INFO 20156 --- [restartedMain] jdbc.connection                          : 7. Connection opened
+2018-01-23 17:12:58.614  INFO 20156 --- [restartedMain] jdbc.audit                               : 7. Connection.new Connection returned 
+2018-01-23 17:12:58.618  INFO 20156 --- [restartedMain] jdbc.connection                          : 8. Connection opened
+2018-01-23 17:12:58.618  INFO 20156 --- [restartedMain] jdbc.audit                               : 8. Connection.new Connection returned 
+2018-01-23 17:12:58.622  INFO 20156 --- [restartedMain] jdbc.connection                          : 9. Connection opened
+2018-01-23 17:12:58.622  INFO 20156 --- [restartedMain] jdbc.audit                               : 9. Connection.new Connection returned 
+2018-01-23 17:12:58.626  INFO 20156 --- [restartedMain] jdbc.connection                          : 10. Connection opened
+2018-01-23 17:12:58.626  INFO 20156 --- [restartedMain] jdbc.audit                               : 10. Connection.new Connection returned 
+2018-01-23 17:12:58.633  INFO 20156 --- [restartedMain] jdbc.audit                               : 10. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@2b81d1
+2018-01-23 17:12:58.650  INFO 20156 --- [restartedMain] jdbc.audit                               : 10. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@1dcfd0be
+2018-01-23 17:12:58.690  INFO 20156 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-01-23 17:12:59.062  INFO 20156 --- [restartedMain] jdbc.audit                               : 10. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@638b60a1
+2018-01-23 17:12:59.667  INFO 20156 --- [restartedMain] jdbc.audit                               : 10. Connection.setAutoCommit(true) returned 
+2018-01-23 17:12:59.669  INFO 20156 --- [restartedMain] jdbc.audit                               : 10. Statement.new Statement returned 
+2018-01-23 17:12:59.669  INFO 20156 --- [restartedMain] jdbc.audit                               : 10. Connection.createStatement() returned net.sf.log4jdbc.StatementSpy@6520576c
+2018-01-23 17:12:59.672  INFO 20156 --- [restartedMain] jdbc.audit                               : 10. Statement.close() returned 
+2018-01-23 17:12:59.697  INFO 20156 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-01-23 17:12:59.743  INFO 20156 --- [restartedMain] jdbc.audit                               : 10. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@6ab125c3
+2018-01-23 17:13:01.264  INFO 20156 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-01-23 17:13:01.437  INFO 20156 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-01-23 17:13:01.514  INFO 20156 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 80 (http)
+2018-01-23 17:13:01.522  INFO 20156 --- [restartedMain] c.w.p.PublicNumberDomeApplication        : Started PublicNumberDomeApplication in 7.95 seconds (JVM running for 9.416)
+2018-01-23 17:15:01.374  INFO 20156 --- [http-nio-80-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-01-23 17:15:01.409  INFO 20156 --- [http-nio-80-exec-2] uration$$EnhancerBySpringCGLIB$$646989d8 : 对请求url :/lpf/wechat/checkSignature 过滤非法字符
+2018-01-23 17:15:01.686 ERROR 20156 --- [http-nio-80-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.ClassCastException: com.wechat.publicnumberdome.wechat.InputMessage cannot be cast to com.wechat.publicnumberdome.wechat.InputMessage] with root cause
+
+java.lang.ClassCastException: com.wechat.publicnumberdome.wechat.InputMessage cannot be cast to com.wechat.publicnumberdome.wechat.InputMessage
+	at com.wechat.publicnumberdome.service.WechatService.processWechatMag(WechatService.java:51) ~[classes/:na]
+	at com.wechat.publicnumberdome.controller.WechatController.checkSignature(WechatController.java:60) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_152]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_152]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_152]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_152]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221) ~[spring-web-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136) ~[spring-web-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:114) ~[spring-webmvc-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827) ~[spring-webmvc-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738) ~[spring-webmvc-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85) ~[spring-webmvc-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897) ~[spring-webmvc-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970) ~[spring-webmvc-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872) ~[spring-webmvc-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846) ~[spring-webmvc-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) ~[tomcat-embed-websocket-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.filters.RemoteIpFilter.doFilter(RemoteIpFilter.java:865) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.filters.RemoteIpFilter.doFilter(RemoteIpFilter.java:902) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at com.wechat.publicnumberdome.config.WebConfiguration$SSXFilter.doFilter(WebConfiguration.java:66) ~[classes/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:87) ~[spring-web-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77) ~[spring-web-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197) ~[spring-web-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_152]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_152]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_152]
+
+2018-01-23 17:17:50.695  INFO 18292 --- [restartedMain] c.w.p.PublicNumberDomeApplication        : Starting PublicNumberDomeApplication on DESKTOP-M7PPQQJ with PID 18292 (D:\MyProject\idea2017.2.3\public-number-dome\target\classes started by 28913 in D:\MyProject\idea2017.2.3\public-number-dome)
+2018-01-23 17:17:50.697  INFO 18292 --- [restartedMain] c.w.p.PublicNumberDomeApplication        : No active profile set, falling back to default profiles: default
+2018-01-23 17:17:51.176  INFO 18292 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@77696fb7: startup date [Tue Jan 23 17:17:51 CST 2018]; root of context hierarchy
+2018-01-23 17:17:53.641  INFO 18292 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 80 (http)
+2018-01-23 17:17:53.652  INFO 18292 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-01-23 17:17:53.653  INFO 18292 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-01-23 17:17:53.764  INFO 18292 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-01-23 17:17:53.984  INFO 18292 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-23 17:17:53.985  INFO 18292 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-23 17:17:53.985  INFO 18292 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-23 17:17:53.985  INFO 18292 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-23 17:17:53.985  INFO 18292 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'MyFilter' to urls: [/lpf/*]
+2018-01-23 17:17:53.985  INFO 18292 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'remoteIpFilter' to: [/*]
+2018-01-23 17:17:53.986  INFO 18292 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-23 17:17:54.536  INFO 18292 --- [restartedMain] jdbc.connection                          : 1. Connection opened
+2018-01-23 17:17:54.537  INFO 18292 --- [restartedMain] jdbc.audit                               : 1. Connection.new Connection returned 
+2018-01-23 17:17:54.542  INFO 18292 --- [restartedMain] jdbc.connection                          : 2. Connection opened
+2018-01-23 17:17:54.542  INFO 18292 --- [restartedMain] jdbc.audit                               : 2. Connection.new Connection returned 
+2018-01-23 17:17:54.547  INFO 18292 --- [restartedMain] jdbc.connection                          : 3. Connection opened
+2018-01-23 17:17:54.547  INFO 18292 --- [restartedMain] jdbc.audit                               : 3. Connection.new Connection returned 
+2018-01-23 17:17:54.552  INFO 18292 --- [restartedMain] jdbc.connection                          : 4. Connection opened
+2018-01-23 17:17:54.552  INFO 18292 --- [restartedMain] jdbc.audit                               : 4. Connection.new Connection returned 
+2018-01-23 17:17:54.556  INFO 18292 --- [restartedMain] jdbc.connection                          : 5. Connection opened
+2018-01-23 17:17:54.556  INFO 18292 --- [restartedMain] jdbc.audit                               : 5. Connection.new Connection returned 
+2018-01-23 17:17:54.561  INFO 18292 --- [restartedMain] jdbc.connection                          : 6. Connection opened
+2018-01-23 17:17:54.561  INFO 18292 --- [restartedMain] jdbc.audit                               : 6. Connection.new Connection returned 
+2018-01-23 17:17:54.565  INFO 18292 --- [restartedMain] jdbc.connection                          : 7. Connection opened
+2018-01-23 17:17:54.565  INFO 18292 --- [restartedMain] jdbc.audit                               : 7. Connection.new Connection returned 
+2018-01-23 17:17:54.569  INFO 18292 --- [restartedMain] jdbc.connection                          : 8. Connection opened
+2018-01-23 17:17:54.570  INFO 18292 --- [restartedMain] jdbc.audit                               : 8. Connection.new Connection returned 
+2018-01-23 17:17:54.574  INFO 18292 --- [restartedMain] jdbc.connection                          : 9. Connection opened
+2018-01-23 17:17:54.575  INFO 18292 --- [restartedMain] jdbc.audit                               : 9. Connection.new Connection returned 
+2018-01-23 17:17:54.585  INFO 18292 --- [restartedMain] jdbc.connection                          : 10. Connection opened
+2018-01-23 17:17:54.586  INFO 18292 --- [restartedMain] jdbc.audit                               : 10. Connection.new Connection returned 
+2018-01-23 17:17:54.597  INFO 18292 --- [restartedMain] jdbc.audit                               : 10. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@57d23533
+2018-01-23 17:17:54.618  INFO 18292 --- [restartedMain] jdbc.audit                               : 10. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@c4038ff
+2018-01-23 17:17:54.681  INFO 18292 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-01-23 17:17:54.991  INFO 18292 --- [restartedMain] jdbc.audit                               : 10. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@524d6f92
+2018-01-23 17:17:55.338  INFO 18292 --- [restartedMain] jdbc.audit                               : 10. Connection.setAutoCommit(true) returned 
+2018-01-23 17:17:55.340  INFO 18292 --- [restartedMain] jdbc.audit                               : 10. Statement.new Statement returned 
+2018-01-23 17:17:55.340  INFO 18292 --- [restartedMain] jdbc.audit                               : 10. Connection.createStatement() returned net.sf.log4jdbc.StatementSpy@4b12a4eb
+2018-01-23 17:17:55.343  INFO 18292 --- [restartedMain] jdbc.audit                               : 10. Statement.close() returned 
+2018-01-23 17:17:55.367  INFO 18292 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-01-23 17:17:55.412  INFO 18292 --- [restartedMain] jdbc.audit                               : 10. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@6b973c7
+2018-01-23 17:17:56.719  INFO 18292 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-01-23 17:17:56.884  INFO 18292 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-01-23 17:17:56.965  INFO 18292 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 80 (http)
+2018-01-23 17:17:56.972  INFO 18292 --- [restartedMain] c.w.p.PublicNumberDomeApplication        : Started PublicNumberDomeApplication in 7.079 seconds (JVM running for 8.547)
+2018-01-23 17:18:07.637  INFO 18292 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-01-23 17:18:07.760  INFO 18292 --- [http-nio-80-exec-1] c.w.p.controller.WechatController        : 
+第一次验证接口...
+
+2018-01-23 17:18:07.761  INFO 18292 --- [http-nio-80-exec-1] c.w.p.controller.WechatController        : 
+校验成功
+
+2018-01-23 17:18:30.017 ERROR 18292 --- [http-nio-80-exec-3] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.ClassCastException: com.wechat.publicnumberdome.wechat.InputMessage cannot be cast to com.wechat.publicnumberdome.wechat.InputMessage] with root cause
+
+java.lang.ClassCastException: com.wechat.publicnumberdome.wechat.InputMessage cannot be cast to com.wechat.publicnumberdome.wechat.InputMessage
+	at com.wechat.publicnumberdome.service.WechatService.processWechatMag(WechatService.java:51) ~[classes/:na]
+	at com.wechat.publicnumberdome.controller.WechatController.checkSignature(WechatController.java:60) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_152]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_152]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_152]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_152]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221) ~[spring-web-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136) ~[spring-web-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:114) ~[spring-webmvc-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827) ~[spring-webmvc-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738) ~[spring-webmvc-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85) ~[spring-webmvc-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897) ~[spring-webmvc-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970) ~[spring-webmvc-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872) ~[spring-webmvc-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846) ~[spring-webmvc-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) ~[tomcat-embed-websocket-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.filters.RemoteIpFilter.doFilter(RemoteIpFilter.java:865) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.filters.RemoteIpFilter.doFilter(RemoteIpFilter.java:902) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:87) ~[spring-web-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77) ~[spring-web-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197) ~[spring-web-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_152]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_152]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_152]
+
+2018-01-23 17:21:18.544 ERROR 18292 --- [http-nio-80-exec-4] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.ClassCastException: com.wechat.publicnumberdome.wechat.InputMessage cannot be cast to com.wechat.publicnumberdome.wechat.InputMessage] with root cause
+
+java.lang.ClassCastException: com.wechat.publicnumberdome.wechat.InputMessage cannot be cast to com.wechat.publicnumberdome.wechat.InputMessage
+	at com.wechat.publicnumberdome.service.WechatService.processWechatMag(WechatService.java:51) ~[classes/:na]
+	at com.wechat.publicnumberdome.controller.WechatController.checkSignature(WechatController.java:60) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_152]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_152]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_152]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_152]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221) ~[spring-web-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136) ~[spring-web-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:114) ~[spring-webmvc-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827) ~[spring-webmvc-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738) ~[spring-webmvc-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85) ~[spring-webmvc-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897) ~[spring-webmvc-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970) ~[spring-webmvc-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872) ~[spring-webmvc-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846) ~[spring-webmvc-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) ~[tomcat-embed-websocket-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.filters.RemoteIpFilter.doFilter(RemoteIpFilter.java:865) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.filters.RemoteIpFilter.doFilter(RemoteIpFilter.java:902) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:87) ~[spring-web-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77) ~[spring-web-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197) ~[spring-web-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_152]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_152]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_152]
+
+2018-01-23 17:22:25.336 ERROR 18292 --- [http-nio-80-exec-5] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.ClassCastException: com.wechat.publicnumberdome.wechat.InputMessage cannot be cast to com.wechat.publicnumberdome.wechat.InputMessage] with root cause
+
+java.lang.ClassCastException: com.wechat.publicnumberdome.wechat.InputMessage cannot be cast to com.wechat.publicnumberdome.wechat.InputMessage
+	at com.wechat.publicnumberdome.service.WechatService.processWechatMag(WechatService.java:51) ~[classes/:na]
+	at com.wechat.publicnumberdome.controller.WechatController.checkSignature(WechatController.java:60) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_152]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_152]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_152]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_152]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221) ~[spring-web-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136) ~[spring-web-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:114) ~[spring-webmvc-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827) ~[spring-webmvc-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738) ~[spring-webmvc-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85) ~[spring-webmvc-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897) ~[spring-webmvc-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970) ~[spring-webmvc-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872) ~[spring-webmvc-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846) ~[spring-webmvc-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) ~[tomcat-embed-websocket-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.filters.RemoteIpFilter.doFilter(RemoteIpFilter.java:865) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.filters.RemoteIpFilter.doFilter(RemoteIpFilter.java:902) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:87) ~[spring-web-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77) ~[spring-web-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197) ~[spring-web-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_152]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_152]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_152]
+
+2018-01-23 17:29:45.013  INFO 892 --- [restartedMain] c.w.p.PublicNumberDomeApplication        : Starting PublicNumberDomeApplication on DESKTOP-M7PPQQJ with PID 892 (D:\MyProject\idea2017.2.3\public-number-dome\target\classes started by 28913 in D:\MyProject\idea2017.2.3\public-number-dome)
+2018-01-23 17:29:45.024  INFO 892 --- [restartedMain] c.w.p.PublicNumberDomeApplication        : No active profile set, falling back to default profiles: default
+2018-01-23 17:29:45.419  INFO 892 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@432dc788: startup date [Tue Jan 23 17:29:45 CST 2018]; root of context hierarchy
+2018-01-23 17:29:47.529  INFO 892 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 80 (http)
+2018-01-23 17:29:47.541  INFO 892 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-01-23 17:29:47.542  INFO 892 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-01-23 17:29:47.637  INFO 892 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-01-23 17:29:47.852  INFO 892 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-23 17:29:47.852  INFO 892 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-23 17:29:47.852  INFO 892 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-23 17:29:47.852  INFO 892 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-23 17:29:47.853  INFO 892 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'MyFilter' to urls: [/lpf/*]
+2018-01-23 17:29:47.853  INFO 892 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'remoteIpFilter' to: [/*]
+2018-01-23 17:29:47.853  INFO 892 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-23 17:29:48.408  INFO 892 --- [restartedMain] jdbc.connection                          : 1. Connection opened
+2018-01-23 17:29:48.408  INFO 892 --- [restartedMain] jdbc.audit                               : 1. Connection.new Connection returned 
+2018-01-23 17:29:48.413  INFO 892 --- [restartedMain] jdbc.connection                          : 2. Connection opened
+2018-01-23 17:29:48.413  INFO 892 --- [restartedMain] jdbc.audit                               : 2. Connection.new Connection returned 
+2018-01-23 17:29:48.418  INFO 892 --- [restartedMain] jdbc.connection                          : 3. Connection opened
+2018-01-23 17:29:48.418  INFO 892 --- [restartedMain] jdbc.audit                               : 3. Connection.new Connection returned 
+2018-01-23 17:29:48.422  INFO 892 --- [restartedMain] jdbc.connection                          : 4. Connection opened
+2018-01-23 17:29:48.423  INFO 892 --- [restartedMain] jdbc.audit                               : 4. Connection.new Connection returned 
+2018-01-23 17:29:48.427  INFO 892 --- [restartedMain] jdbc.connection                          : 5. Connection opened
+2018-01-23 17:29:48.427  INFO 892 --- [restartedMain] jdbc.audit                               : 5. Connection.new Connection returned 
+2018-01-23 17:29:48.433  INFO 892 --- [restartedMain] jdbc.connection                          : 6. Connection opened
+2018-01-23 17:29:48.433  INFO 892 --- [restartedMain] jdbc.audit                               : 6. Connection.new Connection returned 
+2018-01-23 17:29:48.438  INFO 892 --- [restartedMain] jdbc.connection                          : 7. Connection opened
+2018-01-23 17:29:48.438  INFO 892 --- [restartedMain] jdbc.audit                               : 7. Connection.new Connection returned 
+2018-01-23 17:29:48.443  INFO 892 --- [restartedMain] jdbc.connection                          : 8. Connection opened
+2018-01-23 17:29:48.443  INFO 892 --- [restartedMain] jdbc.audit                               : 8. Connection.new Connection returned 
+2018-01-23 17:29:48.448  INFO 892 --- [restartedMain] jdbc.connection                          : 9. Connection opened
+2018-01-23 17:29:48.449  INFO 892 --- [restartedMain] jdbc.audit                               : 9. Connection.new Connection returned 
+2018-01-23 17:29:48.453  INFO 892 --- [restartedMain] jdbc.connection                          : 10. Connection opened
+2018-01-23 17:29:48.453  INFO 892 --- [restartedMain] jdbc.audit                               : 10. Connection.new Connection returned 
+2018-01-23 17:29:48.461  INFO 892 --- [restartedMain] jdbc.audit                               : 10. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@4a44f03a
+2018-01-23 17:29:48.477  INFO 892 --- [restartedMain] jdbc.audit                               : 10. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@513be481
+2018-01-23 17:29:48.533  INFO 892 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-01-23 17:29:48.868  INFO 892 --- [restartedMain] jdbc.audit                               : 10. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@2ca66de2
+2018-01-23 17:29:49.234  INFO 892 --- [restartedMain] jdbc.audit                               : 10. Connection.setAutoCommit(true) returned 
+2018-01-23 17:29:49.236  INFO 892 --- [restartedMain] jdbc.audit                               : 10. Statement.new Statement returned 
+2018-01-23 17:29:49.236  INFO 892 --- [restartedMain] jdbc.audit                               : 10. Connection.createStatement() returned net.sf.log4jdbc.StatementSpy@6145df89
+2018-01-23 17:29:49.239  INFO 892 --- [restartedMain] jdbc.audit                               : 10. Statement.close() returned 
+2018-01-23 17:29:49.262  INFO 892 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-01-23 17:29:49.318  INFO 892 --- [restartedMain] jdbc.audit                               : 10. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@1a0f378f
+2018-01-23 17:29:50.847  INFO 892 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-01-23 17:29:51.025  INFO 892 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-01-23 17:29:51.097  INFO 892 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 80 (http)
+2018-01-23 17:29:51.103  INFO 892 --- [restartedMain] c.w.p.PublicNumberDomeApplication        : Started PublicNumberDomeApplication in 6.808 seconds (JVM running for 8.604)
+2018-01-23 17:30:35.507  INFO 892 --- [http-nio-80-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-01-23 17:30:35.802 ERROR 892 --- [http-nio-80-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.ClassCastException: com.wechat.publicnumberdome.wechat.InputMessage cannot be cast to com.wechat.publicnumberdome.wechat.InputMessage] with root cause
+
+java.lang.ClassCastException: com.wechat.publicnumberdome.wechat.InputMessage cannot be cast to com.wechat.publicnumberdome.wechat.InputMessage
+	at com.wechat.publicnumberdome.service.WechatService.processWechatMag(WechatService.java:51) ~[classes/:na]
+	at com.wechat.publicnumberdome.controller.WechatController.checkSignature(WechatController.java:60) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_152]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_152]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_152]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_152]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221) ~[spring-web-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136) ~[spring-web-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:114) ~[spring-webmvc-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827) ~[spring-webmvc-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738) ~[spring-webmvc-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85) ~[spring-webmvc-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897) ~[spring-webmvc-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970) ~[spring-webmvc-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872) ~[spring-webmvc-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846) ~[spring-webmvc-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) ~[tomcat-embed-websocket-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.filters.RemoteIpFilter.doFilter(RemoteIpFilter.java:865) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.filters.RemoteIpFilter.doFilter(RemoteIpFilter.java:902) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:87) ~[spring-web-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77) ~[spring-web-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197) ~[spring-web-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_152]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_152]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_152]
+
+2018-01-23 17:33:47.890  INFO 21076 --- [restartedMain] c.w.p.PublicNumberDomeApplication        : Starting PublicNumberDomeApplication on DESKTOP-M7PPQQJ with PID 21076 (D:\MyProject\idea2017.2.3\public-number-dome\target\classes started by 28913 in D:\MyProject\idea2017.2.3\public-number-dome)
+2018-01-23 17:33:47.892  INFO 21076 --- [restartedMain] c.w.p.PublicNumberDomeApplication        : No active profile set, falling back to default profiles: default
+2018-01-23 17:33:48.333  INFO 21076 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@d48859: startup date [Tue Jan 23 17:33:48 CST 2018]; root of context hierarchy
+2018-01-23 17:33:50.461  INFO 21076 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 80 (http)
+2018-01-23 17:33:50.472  INFO 21076 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-01-23 17:33:50.473  INFO 21076 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-01-23 17:33:50.583  INFO 21076 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-01-23 17:33:50.802  INFO 21076 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-23 17:33:50.803  INFO 21076 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-23 17:33:50.803  INFO 21076 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-23 17:33:50.804  INFO 21076 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-23 17:33:50.804  INFO 21076 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'MyFilter' to urls: [/lpf/*]
+2018-01-23 17:33:50.804  INFO 21076 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'remoteIpFilter' to: [/*]
+2018-01-23 17:33:50.804  INFO 21076 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-23 17:33:51.366  INFO 21076 --- [restartedMain] jdbc.connection                          : 1. Connection opened
+2018-01-23 17:33:51.366  INFO 21076 --- [restartedMain] jdbc.audit                               : 1. Connection.new Connection returned 
+2018-01-23 17:33:51.371  INFO 21076 --- [restartedMain] jdbc.connection                          : 2. Connection opened
+2018-01-23 17:33:51.371  INFO 21076 --- [restartedMain] jdbc.audit                               : 2. Connection.new Connection returned 
+2018-01-23 17:33:51.375  INFO 21076 --- [restartedMain] jdbc.connection                          : 3. Connection opened
+2018-01-23 17:33:51.375  INFO 21076 --- [restartedMain] jdbc.audit                               : 3. Connection.new Connection returned 
+2018-01-23 17:33:51.380  INFO 21076 --- [restartedMain] jdbc.connection                          : 4. Connection opened
+2018-01-23 17:33:51.380  INFO 21076 --- [restartedMain] jdbc.audit                               : 4. Connection.new Connection returned 
+2018-01-23 17:33:51.384  INFO 21076 --- [restartedMain] jdbc.connection                          : 5. Connection opened
+2018-01-23 17:33:51.384  INFO 21076 --- [restartedMain] jdbc.audit                               : 5. Connection.new Connection returned 
+2018-01-23 17:33:51.389  INFO 21076 --- [restartedMain] jdbc.connection                          : 6. Connection opened
+2018-01-23 17:33:51.389  INFO 21076 --- [restartedMain] jdbc.audit                               : 6. Connection.new Connection returned 
+2018-01-23 17:33:51.393  INFO 21076 --- [restartedMain] jdbc.connection                          : 7. Connection opened
+2018-01-23 17:33:51.393  INFO 21076 --- [restartedMain] jdbc.audit                               : 7. Connection.new Connection returned 
+2018-01-23 17:33:51.397  INFO 21076 --- [restartedMain] jdbc.connection                          : 8. Connection opened
+2018-01-23 17:33:51.397  INFO 21076 --- [restartedMain] jdbc.audit                               : 8. Connection.new Connection returned 
+2018-01-23 17:33:51.401  INFO 21076 --- [restartedMain] jdbc.connection                          : 9. Connection opened
+2018-01-23 17:33:51.401  INFO 21076 --- [restartedMain] jdbc.audit                               : 9. Connection.new Connection returned 
+2018-01-23 17:33:51.405  INFO 21076 --- [restartedMain] jdbc.connection                          : 10. Connection opened
+2018-01-23 17:33:51.405  INFO 21076 --- [restartedMain] jdbc.audit                               : 10. Connection.new Connection returned 
+2018-01-23 17:33:51.412  INFO 21076 --- [restartedMain] jdbc.audit                               : 10. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@2af6c9cf
+2018-01-23 17:33:51.426  INFO 21076 --- [restartedMain] jdbc.audit                               : 10. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@26781bea
+2018-01-23 17:33:51.468  INFO 21076 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-01-23 17:33:51.893  INFO 21076 --- [restartedMain] jdbc.audit                               : 10. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@23438be6
+2018-01-23 17:33:52.298  INFO 21076 --- [restartedMain] jdbc.audit                               : 10. Connection.setAutoCommit(true) returned 
+2018-01-23 17:33:52.299  INFO 21076 --- [restartedMain] jdbc.audit                               : 10. Statement.new Statement returned 
+2018-01-23 17:33:52.299  INFO 21076 --- [restartedMain] jdbc.audit                               : 10. Connection.createStatement() returned net.sf.log4jdbc.StatementSpy@5c414d5a
+2018-01-23 17:33:52.302  INFO 21076 --- [restartedMain] jdbc.audit                               : 10. Statement.close() returned 
+2018-01-23 17:33:52.327  INFO 21076 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-01-23 17:33:52.372  INFO 21076 --- [restartedMain] jdbc.audit                               : 10. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@2f177983
+2018-01-23 17:33:53.927  INFO 21076 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-01-23 17:33:54.123  INFO 21076 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-01-23 17:33:54.298  INFO 21076 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 80 (http)
+2018-01-23 17:33:54.308  INFO 21076 --- [restartedMain] c.w.p.PublicNumberDomeApplication        : Started PublicNumberDomeApplication in 7.455 seconds (JVM running for 9.764)
+2018-01-23 17:34:05.163  INFO 21076 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-01-23 17:34:05.445 ERROR 21076 --- [http-nio-80-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.ClassCastException: com.wechat.publicnumberdome.wechat.InputMessage cannot be cast to com.wechat.publicnumberdome.wechat.InputMessage] with root cause
+
+java.lang.ClassCastException: com.wechat.publicnumberdome.wechat.InputMessage cannot be cast to com.wechat.publicnumberdome.wechat.InputMessage
+	at com.wechat.publicnumberdome.service.WechatService.processWechatMag(WechatService.java:51) ~[classes/:na]
+	at com.wechat.publicnumberdome.controller.WechatController.checkSignature(WechatController.java:60) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_152]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_152]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_152]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_152]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221) ~[spring-web-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136) ~[spring-web-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:114) ~[spring-webmvc-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827) ~[spring-webmvc-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738) ~[spring-webmvc-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85) ~[spring-webmvc-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897) ~[spring-webmvc-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970) ~[spring-webmvc-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872) ~[spring-webmvc-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846) ~[spring-webmvc-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) ~[tomcat-embed-websocket-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.filters.RemoteIpFilter.doFilter(RemoteIpFilter.java:865) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.filters.RemoteIpFilter.doFilter(RemoteIpFilter.java:902) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:87) ~[spring-web-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77) ~[spring-web-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197) ~[spring-web-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_152]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_152]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_152]
+
+2018-01-23 17:42:00.431  INFO 15704 --- [restartedMain] c.w.p.PublicNumberDomeApplication        : Starting PublicNumberDomeApplication on DESKTOP-M7PPQQJ with PID 15704 (D:\MyProject\idea2017.2.3\public-number-dome\target\classes started by 28913 in D:\MyProject\idea2017.2.3\public-number-dome)
+2018-01-23 17:42:00.434  INFO 15704 --- [restartedMain] c.w.p.PublicNumberDomeApplication        : No active profile set, falling back to default profiles: default
+2018-01-23 17:42:01.037  INFO 15704 --- [restartedMain] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@69a703f: startup date [Tue Jan 23 17:42:01 CST 2018]; root of context hierarchy
+2018-01-23 17:42:01.824 ERROR 15704 --- [restartedMain] o.s.boot.SpringApplication               : Application startup failed
+
+java.lang.NoClassDefFoundError: org/apache/catalina/filters/RemoteIpFilter
+	at java.lang.Class.getDeclaredMethods0(Native Method) ~[na:1.8.0_152]
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701) ~[na:1.8.0_152]
+	at java.lang.Class.getDeclaredMethods(Class.java:1975) ~[na:1.8.0_152]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:612) ~[spring-core-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:524) ~[spring-core-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:510) ~[spring-core-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:570) ~[spring-core-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:683) ~[spring-beans-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:627) ~[spring-beans-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:597) ~[spring-beans-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1450) ~[spring-beans-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:447) ~[spring-beans-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:417) ~[spring-beans-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.beans.factory.BeanFactoryUtils.beanNamesForTypeIncludingAncestors(BeanFactoryUtils.java:220) ~[spring-beans-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.boot.autoconfigure.validation.PrimaryDefaultValidatorPostProcessor.hasPrimarySpringValidator(PrimaryDefaultValidatorPostProcessor.java:83) ~[spring-boot-autoconfigure-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.autoconfigure.validation.PrimaryDefaultValidatorPostProcessor.registerBeanDefinitions(PrimaryDefaultValidatorPostProcessor.java:63) ~[spring-boot-autoconfigure-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsFromRegistrars(ConfigurationClassBeanDefinitionReader.java:352) ~[spring-context-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:143) ~[spring-context-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:116) ~[spring-context-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:333) ~[spring-context-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:243) ~[spring-context-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:273) ~[spring-context-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:98) ~[spring-context-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:681) ~[spring-context-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:523) ~[spring-context-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at com.wechat.publicnumberdome.PublicNumberDomeApplication.main(PublicNumberDomeApplication.java:20) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_152]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_152]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_152]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_152]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+Caused by: java.lang.ClassNotFoundException: org.apache.catalina.filters.RemoteIpFilter
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381) ~[na:1.8.0_152]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[na:1.8.0_152]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:338) ~[na:1.8.0_152]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[na:1.8.0_152]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:151) ~[spring-boot-devtools-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[na:1.8.0_152]
+	... 36 common frames omitted
+
+2018-01-23 17:42:01.828  INFO 15704 --- [restartedMain] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@69a703f: startup date [Tue Jan 23 17:42:01 CST 2018]; root of context hierarchy
+2018-01-23 17:42:01.829  WARN 15704 --- [restartedMain] s.c.a.AnnotationConfigApplicationContext : Exception thrown from LifecycleProcessor on context close
+
+java.lang.IllegalStateException: LifecycleProcessor not initialized - call 'refresh' before invoking lifecycle methods via the context: org.springframework.context.annotation.AnnotationConfigApplicationContext@69a703f: startup date [Tue Jan 23 17:42:01 CST 2018]; root of context hierarchy
+	at org.springframework.context.support.AbstractApplicationContext.getLifecycleProcessor(AbstractApplicationContext.java:416) [spring-context-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:997) [spring-context-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:956) [spring-context-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:750) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at com.wechat.publicnumberdome.PublicNumberDomeApplication.main(PublicNumberDomeApplication.java:20) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_152]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_152]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_152]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_152]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+
+2018-01-23 17:42:41.319  INFO 20392 --- [restartedMain] c.w.p.PublicNumberDomeApplication        : Starting PublicNumberDomeApplication on DESKTOP-M7PPQQJ with PID 20392 (D:\MyProject\idea2017.2.3\public-number-dome\target\classes started by 28913 in D:\MyProject\idea2017.2.3\public-number-dome)
+2018-01-23 17:42:41.321  INFO 20392 --- [restartedMain] c.w.p.PublicNumberDomeApplication        : No active profile set, falling back to default profiles: default
+2018-01-23 17:42:41.789  INFO 20392 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3bf67688: startup date [Tue Jan 23 17:42:41 CST 2018]; root of context hierarchy
+2018-01-23 17:42:43.898  INFO 20392 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 80 (http)
+2018-01-23 17:42:43.909  INFO 20392 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-01-23 17:42:43.910  INFO 20392 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-01-23 17:42:44.009  INFO 20392 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-01-23 17:42:44.278  INFO 20392 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-23 17:42:44.279  INFO 20392 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-23 17:42:44.279  INFO 20392 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-23 17:42:44.279  INFO 20392 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-23 17:42:44.279  INFO 20392 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'MyFilter' to urls: [/lpf/*]
+2018-01-23 17:42:44.279  INFO 20392 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'remoteIpFilter' to: [/*]
+2018-01-23 17:42:44.280  INFO 20392 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-23 17:42:44.850  INFO 20392 --- [restartedMain] jdbc.connection                          : 1. Connection opened
+2018-01-23 17:42:44.850  INFO 20392 --- [restartedMain] jdbc.audit                               : 1. Connection.new Connection returned 
+2018-01-23 17:42:44.854  INFO 20392 --- [restartedMain] jdbc.connection                          : 2. Connection opened
+2018-01-23 17:42:44.854  INFO 20392 --- [restartedMain] jdbc.audit                               : 2. Connection.new Connection returned 
+2018-01-23 17:42:44.858  INFO 20392 --- [restartedMain] jdbc.connection                          : 3. Connection opened
+2018-01-23 17:42:44.859  INFO 20392 --- [restartedMain] jdbc.audit                               : 3. Connection.new Connection returned 
+2018-01-23 17:42:44.863  INFO 20392 --- [restartedMain] jdbc.connection                          : 4. Connection opened
+2018-01-23 17:42:44.863  INFO 20392 --- [restartedMain] jdbc.audit                               : 4. Connection.new Connection returned 
+2018-01-23 17:42:44.867  INFO 20392 --- [restartedMain] jdbc.connection                          : 5. Connection opened
+2018-01-23 17:42:44.867  INFO 20392 --- [restartedMain] jdbc.audit                               : 5. Connection.new Connection returned 
+2018-01-23 17:42:44.872  INFO 20392 --- [restartedMain] jdbc.connection                          : 6. Connection opened
+2018-01-23 17:42:44.873  INFO 20392 --- [restartedMain] jdbc.audit                               : 6. Connection.new Connection returned 
+2018-01-23 17:42:44.877  INFO 20392 --- [restartedMain] jdbc.connection                          : 7. Connection opened
+2018-01-23 17:42:44.877  INFO 20392 --- [restartedMain] jdbc.audit                               : 7. Connection.new Connection returned 
+2018-01-23 17:42:44.881  INFO 20392 --- [restartedMain] jdbc.connection                          : 8. Connection opened
+2018-01-23 17:42:44.882  INFO 20392 --- [restartedMain] jdbc.audit                               : 8. Connection.new Connection returned 
+2018-01-23 17:42:44.887  INFO 20392 --- [restartedMain] jdbc.connection                          : 9. Connection opened
+2018-01-23 17:42:44.887  INFO 20392 --- [restartedMain] jdbc.audit                               : 9. Connection.new Connection returned 
+2018-01-23 17:42:44.891  INFO 20392 --- [restartedMain] jdbc.connection                          : 10. Connection opened
+2018-01-23 17:42:44.891  INFO 20392 --- [restartedMain] jdbc.audit                               : 10. Connection.new Connection returned 
+2018-01-23 17:42:44.898  INFO 20392 --- [restartedMain] jdbc.audit                               : 10. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@7b913071
+2018-01-23 17:42:44.915  INFO 20392 --- [restartedMain] jdbc.audit                               : 10. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@6ec5578f
+2018-01-23 17:42:44.954  INFO 20392 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-01-23 17:42:45.279  INFO 20392 --- [restartedMain] jdbc.audit                               : 10. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@4d2d0c3
+2018-01-23 17:42:45.641  INFO 20392 --- [restartedMain] jdbc.audit                               : 10. Connection.setAutoCommit(true) returned 
+2018-01-23 17:42:45.642  INFO 20392 --- [restartedMain] jdbc.audit                               : 10. Statement.new Statement returned 
+2018-01-23 17:42:45.643  INFO 20392 --- [restartedMain] jdbc.audit                               : 10. Connection.createStatement() returned net.sf.log4jdbc.StatementSpy@323ee90c
+2018-01-23 17:42:45.645  INFO 20392 --- [restartedMain] jdbc.audit                               : 10. Statement.close() returned 
+2018-01-23 17:42:45.664  INFO 20392 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-01-23 17:42:45.718  INFO 20392 --- [restartedMain] jdbc.audit                               : 10. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@4e4a03c8
+2018-01-23 17:42:47.081  INFO 20392 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-01-23 17:42:47.235  INFO 20392 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-01-23 17:42:47.307  INFO 20392 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 80 (http)
+2018-01-23 17:42:47.313  INFO 20392 --- [restartedMain] c.w.p.PublicNumberDomeApplication        : Started PublicNumberDomeApplication in 6.668 seconds (JVM running for 8.392)
+2018-01-23 17:43:05.884  INFO 20392 --- [http-nio-80-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-01-23 17:43:06.201 ERROR 20392 --- [http-nio-80-exec-3] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.ClassCastException: com.wechat.publicnumberdome.wechat.InputMessage cannot be cast to com.wechat.publicnumberdome.wechat.InputMessage] with root cause
+
+java.lang.ClassCastException: com.wechat.publicnumberdome.wechat.InputMessage cannot be cast to com.wechat.publicnumberdome.wechat.InputMessage
+	at com.wechat.publicnumberdome.service.WechatService.processWechatMag(WechatService.java:51) ~[classes/:na]
+	at com.wechat.publicnumberdome.controller.WechatController.checkSignature(WechatController.java:60) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_152]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_152]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_152]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_152]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221) ~[spring-web-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136) ~[spring-web-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:114) ~[spring-webmvc-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827) ~[spring-webmvc-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738) ~[spring-webmvc-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85) ~[spring-webmvc-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897) ~[spring-webmvc-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970) ~[spring-webmvc-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872) ~[spring-webmvc-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846) ~[spring-webmvc-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) ~[tomcat-embed-websocket-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.filters.RemoteIpFilter.doFilter(RemoteIpFilter.java:865) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.filters.RemoteIpFilter.doFilter(RemoteIpFilter.java:902) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:87) ~[spring-web-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77) ~[spring-web-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197) ~[spring-web-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_152]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_152]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_152]
+
