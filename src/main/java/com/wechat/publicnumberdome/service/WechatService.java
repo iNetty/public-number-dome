@@ -49,9 +49,9 @@ public class WechatService {
 
         // 将xml内容转换为InputMessage对象
         InputMessage inputMsg = (InputMessage) xs.fromXML(xmlMsg.toString());
-        String servername = inputMsg.getToUserName();// 服务端
-        String custermname = inputMsg.getFromUserName();// 客户端
-        long createTime = inputMsg.getCreateTime();// 接收时间
+        String servername = inputMsg.getToUserName();// 发送给谁
+        String custermname = inputMsg.getFromUserName();// 由谁发送
+        long createTime = inputMsg.getCreateTime();// 发送时间
         Long returnTime = Calendar.getInstance().getTimeInMillis() / 1000;// 返回时间
 
         // 取得消息类型
