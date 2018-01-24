@@ -12,6 +12,7 @@ import java.io.Serializable;
  * <p/>
  * Created by lpf in 2018/1/19 9:34
  */
+@SuppressWarnings({"unchecked"})
 @XStreamAlias("xml")
 public class InputMessage implements Serializable {
     private static final long serialVersionUID = 1L;

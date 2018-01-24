@@ -2,21 +2,18 @@ package com.wechat.publicnumberdome.service;
 
 import com.thoughtworks.xstream.XStream;
 import com.wechat.publicnumberdome.utils.BCConvert;
+import com.wechat.publicnumberdome.utils.WechatUtil;
 import com.wechat.publicnumberdome.wechat.*;
-import com.wechat.publicnumberdome.wwchatUtils.ReceiveXmlEntity;
-import com.wechat.publicnumberdome.wwchatUtils.ReceiveXmlProcess;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 
 import javax.servlet.ServletInputStream;
 import javax.servlet.http.HttpServletRequest;
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
 import java.util.Calendar;
 import java.util.Date;
+import java.util.Map;
 
 /**
  * 微信接口服务类
@@ -28,13 +25,14 @@ public class WechatService {
     private final Logger logger = LoggerFactory.getLogger(this.getClass());
 
     /**
-     * 处理请求
+     * 处理请求 方式一
      *
      * @param request 请求对象
      * @return 结果字符串
      * @throws IOException 文件操作异常
      */
-    /*public String processWechatMag(HttpServletRequest request) throws IOException {
+    /*public String processWechatMag(HttpServletRequest request) throws Exception {
+
         // 处理接收消息
         ServletInputStream in = request.getInputStream();
 
@@ -55,9 +53,8 @@ public class WechatService {
         }
 
         // 将xml内容转换为InputMessage对象
-        //InputMessage inputMsg = (InputMessage) xs.fromXML(xmlMsg.toString());
-        Object object = xs.fromXML(xmlMsg.toString());
-        InputMessage inputMsg = (InputMessage) object;
+        InputMessage inputMsg = (InputMessage) xs.fromXML(xmlMsg.toString());
+
         String servername = inputMsg.getToUserName();// 发送给谁
         String custermname = inputMsg.getFromUserName();// 由谁发送
         long createTime = inputMsg.getCreateTime();// 发送时间
@@ -68,38 +65,40 @@ public class WechatService {
 
         // 根据消息类型获取对应的消息内容
         // 返回内容
-        String result = "欢迎关注我";
-        // 这里只接受文本消息
+        String result = "";
+        // 这里只处理文本消息
         if (msgType.equals(MsgType.Text.toString())) {
             // 获取消息内容
             String msgContent = inputMsg.getContent();
             // 发送请求方的信息
             logger.info("\n\n开发者微信号：" + inputMsg.getToUserName());
             logger.info("发送方帐号：" + inputMsg.getFromUserName());
-            logger.info("消息创建时间：" + inputMsg.getCreateTime() + new Date(createTime * 1000l));
+            logger.info("消息创建时间：" + inputMsg.getCreateTime() + new Date(createTime * 1000L));
             logger.info("消息内容：" + msgContent);
             logger.info("消息Id：" + inputMsg.getMsgId() + "\n\n");
 
-            // 根据发送的用户名和查询密码查询该用户的用电信息
-            if (msgContent != null && !msgContent.isEmpty() && (msgContent.contains("&") || msgContent.contains("＆"))) {
+            if (msgContent != null) {
                 // 转换全角符号
                 msgContent = BCConvert.qj2bj(msgContent);
                 result = new TulingApiProcess().getTulingResult(msgContent);
+            } else {
+                result = "你什么也没说哦";
             }
+
         }
         // 因为最终回复给微信的也是xml格式的数据，所有需要将其封装为文本类型返回消息
-        return new FormatXmlProcess().formatXmlAnswer(inputMsg.getFromUserName(), inputMsg.getToUserName(), result);
+        return FormatXmlProcess.formatXmlAnswer(inputMsg.getFromUserName(), inputMsg.getToUserName(), result);
     }*/
 
 
     /**
-     * 处理请求
+     * 处理请求 方式二
      *
      * @param request 请求对象
      * @return 结果字符串
      * @throws IOException 文件操作异常
      */
-    public String processWechatMag(HttpServletRequest request) throws IOException {
+    /*public String processWechatMag(HttpServletRequest request) throws Exception {
 
         // 读取接收到的xml消息
         StringBuffer sb = new StringBuffer();
@@ -112,12 +111,70 @@ public class WechatService {
         }
         String xml = sb.toString(); //接收到微信端发送过来的xml数据
         // 解析xml数据
+
         ReceiveXmlEntity xmlEntity = new ReceiveXmlProcess().getMsgEntity(xml);
-        // 调用图灵机器人恢复
+
+        // 调用图灵机器人回复
         String result = new TulingApiProcess().getTulingResult(xmlEntity.getContent());
 
         // 因为最终回复给微信的也是xml格式的数据，所有需要将其封装为文本类型返回消息
-        return new FormatXmlProcess().formatXmlAnswer(xmlEntity.getFromUserName(), xmlEntity.getToUserName(), result);
+        return FormatXmlProcess.formatXmlAnswer(xmlEntity.getFromUserName(), xmlEntity.getToUserName(), result);
 
+    }*/
+
+    /**
+     * 处理请求 方式三
+     *
+     * @param request 请求对象
+     * @return 结果字符串
+     * @throws IOException 文件操作异常
+     */
+    public String processWechatMag(HttpServletRequest request) throws Exception {
+        // 处理接收消息
+        Map<String, String> map = WechatUtil.parseXml(request);
+
+        // 获取参数
+        String url, content, toUserName, fromUserName, msgType, msgId;
+        Integer createTime;
+        if (map != null && map.size() > 0) {
+            url = map.get("URL");
+            content = map.get("Content");
+            toUserName = map.get("ToUserName");// 发送给谁
+            fromUserName = map.get("FromUserName");// 由谁发送
+            createTime = Integer.parseInt(map.get("CreateTime"));// 发送时间
+            msgType = map.get("MsgType");// 消息类型
+            msgId = map.get("MsgId");// 消息类型
+        } else {
+            return FormatXmlProcess.formatXmlAnswer("to", "form", "我好像没有理解你说的话呢");
+        }
+
+
+        // 根据消息类型获取对应的消息内容
+        // 返回内容
+        String result = "";
+        // 这里只处理文本消息
+        if (msgType.equals(MsgType.Text.toString())) {
+
+            // 发送请求方的信息
+            Long returnTime = Calendar.getInstance().getTimeInMillis() / 1000;// 返回时间
+            logger.info("\n\n开发者微信号：" + toUserName);
+            logger.info("URL：" + url);
+            logger.info("发送方帐号：" + fromUserName);
+            logger.info("消息创建时间：" + createTime + new Date(createTime * 1000L));
+            logger.info("消息内容：" + content);
+            logger.info("消息Id：" + msgId);
+            logger.info("返回时间：" + returnTime + "\n\n");
+
+            if (content != null) {
+                // 转换全角符号
+                content = BCConvert.qj2bj(content);
+                result = new TulingApiProcess().getTulingResult(content);
+            } else {
+                result = "你什么也没说哦";
+            }
+
+        }
+        // 因为最终回复给微信的也是xml格式的数据，所有需要将其封装为文本类型返回消息
+        return FormatXmlProcess.formatXmlAnswer(toUserName, fromUserName, result);
     }
 }

@@ -21,44 +21,41 @@ public class TulingApiProcess {
      * @param content
      * @return
      */
-    public String getTulingResult(String content) {
-        /** 此处为图灵api接口，参数key需要自己去注册申请，先以11111111代替 */
+    public String getTulingResult(String content) throws Exception {
+        // 图灵api接口URL，参数key：是自己图灵机器人接口的APPID info：发送给图灵机器人的信息
         String apiUrl = "http://www.tuling123.com/openapi/api?key=9395d0451d264034a342976d60cab0a5&info=";
         String param = "";
         try {
+            //将参数转为url编码
             param = apiUrl + URLEncoder.encode(content, "utf-8");
         } catch (UnsupportedEncodingException e1) {
-            // TODO Auto-generated catch block
             e1.printStackTrace();
-        } //将参数转为url编码
+        }
 
-        /** 发送httpget请求 */
+        // 发送httpget请求
         //HttpUtil.sendGet(param);
         HttpGet request = new HttpGet(param);
         String result = "";
-        try {
-            HttpResponse response = HttpClients.createDefault().execute(request);
-            if (response.getStatusLine().getStatusCode() == 200) {
-                result = EntityUtils.toString(response.getEntity());
-            }
-        } catch (Exception e) {
-            e.printStackTrace();
+        HttpResponse response = HttpClients.createDefault().execute(request);
+        if (response.getStatusLine().getStatusCode() == 200) {
+            result = EntityUtils.toString(response.getEntity());
         }
 
-        /** 请求失败处理 */
+        // 请求失败处理
         if (null == result) {
             return "不好意思，我没理解你说的话呢……";
         }
 
-        try {
-            JSONObject json = new JSONObject(result);
-            //以code=100000为例，参考图灵机器人api文档
-            if (100000 == json.getInt("code")) {
-                result = json.getString("text");
-            }
-        } catch (JSONException e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
+        JSONObject json = new JSONObject(result);
+        //以code=100000为例，参考图灵机器人api文档
+        Integer code = json.getInt("code");
+        // 返回为文本内容
+        if (100000 <= code && code < 200000) {
+            result = json.getString("text");
+        } else if(code == 40002){
+            result = "你想说什么呢";
+        }else{
+            result = "我出去出去玩啦，待会再找我聊天吧，嘿嘿 (*╹▽╹*)";
         }
         return result;
     }

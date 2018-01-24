@@ -2,6 +2,7 @@ package com.wechat.publicnumberdome.controller;
 
 import com.wechat.publicnumberdome.service.WechatService;
 import com.wechat.publicnumberdome.utils.SignUtil;
+import com.wechat.publicnumberdome.wechat.FormatXmlProcess;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,7 +18,7 @@ import java.io.IOException;
  * Created by lpf in 2018/1/23 14:56
  */
 @Controller
-@RequestMapping("/wechat")
+@RequestMapping("/lpf/wechat")
 public class WechatController {
 
     private final Logger logger = LoggerFactory.getLogger(this.getClass());
@@ -36,7 +37,7 @@ public class WechatController {
     @RequestMapping("/checkSignature")
     @ResponseBody
     public String checkSignature(HttpServletRequest request, String signature, String timestamp, String nonce, String echostr) {
-        String result = null;
+        String result;
         // 判断是不是第一次接入接口(微信只有在第一次验证接口时会发送get请求)
         boolean isGet = request.getMethod().toLowerCase().equals("get");
         if (isGet) {
@@ -50,12 +51,17 @@ public class WechatController {
             }
             result = echostr;
         } else {
+            logger.info("\n处理业务请求\n");
             try {
                 // 处理业务
                 result = wechatService.processWechatMag(request);
-            } catch (IOException e) {
-                // 这里不处理异常，打印出来即可，微信服务器会自动返回异常：(该公众号提供的服务出现故障，请稍后再试)
+            } catch (Exception e) {
+                logger.error("\n微信请求发生异常：\n" + e.getLocalizedMessage());
+                // 处理异常
+                result = FormatXmlProcess.formatXmlAnswer("", "", "嘿嘿 我好想不太明白你说的什么呢");
+                // 如果这里不处理异常，打印出来即可，微信服务器会自动返回异常：(该公众号提供的服务出现故障，请稍后再试)
                 e.printStackTrace();
+                return result;
             }
         }
         return result;

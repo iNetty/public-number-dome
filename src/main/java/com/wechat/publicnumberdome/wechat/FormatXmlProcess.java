@@ -15,7 +15,7 @@ public class FormatXmlProcess {
      * @param content 返回内容
      * @return 封装后的结果字符串(XML)
      */
-    public String formatXmlAnswer(String to, String from, String content) {
+    public static String formatXmlAnswer(String to, String from, String content) {
         StringBuffer sb = new StringBuffer();
         Date date = new Date();
         sb.append("<xml><ToUserName><![CDATA[").append(to).append("]]></ToUserName><FromUserName><![CDATA[")
